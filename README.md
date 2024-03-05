@@ -84,7 +84,7 @@ Additionally, the following three non-standard categories have been added for co
 - Uncl - Unclassified
 
 > [!NOTE]
-> A small selection of compound words, irregular interjections, non-words etc. (eg. `wine-stained`, `ooh-hoo-hoo`, `3AM`) are currently marked as `Uncl`. These may be classified in future versions of CoTS.
+> A small number of compound words, irregular interjections, non-words etc. (eg. `wine-stained`, `ooh-hoo-hoo`, `3AM`) are currently marked as `Uncl`. These may be classified in future versions of CoTS.
 
 ### FqBand _(Frequency Band)_
 
