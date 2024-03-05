@@ -2,7 +2,7 @@
 
 # Introduction
 
-This is a dataset consisting of all song lyric words found on all of Taylor Swift's studio albums, as well as a selection of other songs written by her. CoTS is generated using 'Taylor's Version' album lyrics where available, and includes all bonus/'from the vault' songs that are not pure remixes or accoustic/piano versions.
+This is a dataset consisting of all song lyric words found on all of Taylor Swift's studio albums, as well as a selection of other songs written by her. CoTS is generated using 'Taylor's Version' album lyrics where available, and includes all bonus/'from the vault' songs. In order prevent duplicate counts of lyric words, versions of songs that are pure remixes or accoustic/piano performances of original songs are not included.
 
 ![CoTS word cloud](img/cots-word-cloud.png)
 
