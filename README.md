@@ -286,11 +286,13 @@ This is the total count of words on an album.
 
 ## Lyrics
 
-This part of CoTS provides a flat set of all lyric lines of each song included in the dataset. These are labelled with:
+This part of CoTS provides a flat set of all lyric lines in each song included in the dataset. Each lyric is labelled with `Album code`:`Track number`:`Lyric line number` as shown in the following example:
 
-`FOL:03:036` - `I had a marvelous time ruining everything`
+`FOL:03:036` - _I had a marvelous time ruining everything_
 
-## Files
-- Corpus
-- lyrics
-- TSVs
+## Additional Files
+- [lyrics/album-song-lyrics.json](lyrics/album-song-lyrics.json) - This is the raw album, song and lyric dataset used to compile CoTS, presented in JSON format.
+- [lyrics/album-song-lyrics.json](lyrics/flat-song-lyrics.json) - This is the same flat set of lyric lines that is provided in CoTS, presented in JSON format.
+- [tsv/cots-word-details.tsv](tsv/cots-word-details.tsv) - The CoTS 'WordDetails' worksheet provided in TSV format. 
+- [tsv/cots-song-details.tsv](tsv/cots-song-details.tsv) - The CoTS 'SongDetails' worksheet provided in TSV format. 
+- [tsv/cots-album-details.tsv](tsv/cots-album-details.tsv) - The CoTS 'AlbumDetails' worksheet provided in TSV format. 
