@@ -1,4 +1,4 @@
-# Corpus of Taylor Swift (CoTS)
+# Corpus of Taylor Swift _(CoTS)_
 
 # Introduction
 
@@ -58,11 +58,11 @@ A word that appears one or more times, in one or more song lyrics. These are pri
 > [!NOTE]
 > Some proper nouns such as place names or names of individuals have been hyphanated to preserve the single word consistency when searching, eg. `New-York`, `Miss-Americana` and `Tim-McGraw`. Additionaly, for clarity the word `I` is listed as `i`.
 
-### PoSes (Part of Speech[es])
+### PoSes _(Part of Speech)_
 
 These are the standard gramatical categorisations that are assigned to English language words. The English language is comprised of many homographic words, which are words that are spelled the same but have different meanings or origins. Consider the word `close`, which can be an adjective, adverb, noun or verb, or the word `minute` which can be an adjective, noun or verb. As such, multiple PoS categories are often assinged to each lyric word in CoTS, and are listed in order of that word's PoS WFWSE frequency. 
 
-PoS categories appear abbreviated within CoTS as follows:
+Standard PoS categories appear abbreviated within CoTS as follows:
 
 - Adje - Adjective
 - Adve - Adverb
@@ -86,7 +86,7 @@ Additionaly the following three non-standard categories have been added for cont
 > [!NOTE]
 > A small selection of compound words, irregular interjections, non-words etc. (eg. `wine-stained`, `ooh-hoo-hoo`, `3AM`) are currently marked as `Uncl`. These may be classified in future versions of CoTS.
 
-### FqBand (Frequency Band)
+### FqBand _(Frequency Band)_
 
 This is a word frequency band that each lyric word has been assinged. It has been derived from the WFWSE word frequency and using the [Fibonacci numbers F11 to F24](https://www.math.net/list-of-fibonacci-numbers) as banding intervals, 1 to 16. 
 
@@ -102,7 +102,7 @@ The top 100 OEC ranked words of the English language are labelled 1-100 in this 
 > [!NOTE]
 > Unlike the WFWSE, the OEC categorises the words `a` and `an` seperately, so for the purposes of the OEC rank they are treated as seperate words, with ranks of `6` and `32` respectively. This is the only instance that this denormalisation occurs.
 
-### CEFRLevel (Common European Framework of Reference for Languages Level)
+### CEFRLevel _(Common European Framework of Reference for Languages Level)_
 
 The 5000 most important words of the English language, as defined by the Oxford 5000 CEFR list, are provided, categorised into the following bands in order of word simplicity when learning a language:
 
@@ -148,7 +148,7 @@ Lastly, in the fourth example, the first two instances of the word `trouble` hav
 
 This is the number of characters (including any hyphens) that comprise a lyric word.
 
-### Reps (Repeats)
+### Reps _(Repetitions)_
 
 This is the amount of times that a lyric word is repeated in lyric lines across all songs/albums. 
 
@@ -174,7 +174,7 @@ The final example is not counted as any repetititions, as `Ra-di` and later `di-
 
 This is the total count of instances of a lyric word across all songs/albums.
 
-### Verse / Bridge / Chorus / Refrain / InOut (Intro/Outro)
+### Verse / Bridge / Chorus / Refrain / InOut _(Intro/Outro)_
 
 This is the total count of instances of a lyric word in various song structure parts across all songs/albums (if any). For brevety, some similar song structure parts have been grouped together as follows:
 
@@ -245,7 +245,7 @@ The most common verb, adjective and noun that occur in a song. This can be seen 
 
 This is the total count of lyric lines in a song.
 
-### Verses / Bridges / Choruses / Refrains / InOuts (Intros/Outros)
+### Verses / Bridges / Choruses / Refrains / InOuts _(Intros/Outros)_
 
 This is the total count of various song structure parts in a song (if any). For brevety, some similar song structure parts have been grouped together as detailed in the [related Word Details section](https://github.com/sagesolar/Corpus-of-Taylor-Swift#verse--bridge--chorus--refrain--inout-introoutro).
 
