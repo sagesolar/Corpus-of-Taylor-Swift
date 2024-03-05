@@ -274,7 +274,7 @@ The lowest WFWSE frequency word that occurs on an album. This is effectively the
 
 ### PrevalentVerb / Adjective / Noun
 
-The most common verb, adjective and noun that occur on an album (see the [related Song Details section](https://github.com/sagesolar/Corpus-of-Taylor-Swift#song-details).
+The most common verb, adjective and noun that occur on an album (see the [related Song Details section](https://github.com/sagesolar/Corpus-of-Taylor-Swift#song-details)).
 
 ### Songs
 
