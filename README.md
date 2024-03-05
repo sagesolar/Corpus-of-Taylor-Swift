@@ -43,6 +43,17 @@ For brevity, CoTS uses the following album codes when referring to albums:
 - TPD - The Tortured Poets Society
 - OTH - Other Songs
 
+## Word Replacements
+
+The following lyric words have been replaced with WFWSE equivalents: 
+
+- rollercoaster = roller-coaster
+- lighthearted = light-hearted
+- nightlight = night-light
+- fairytale = fairy-tale
+- namedropping = name-dropping
+- takeout = take-out
+
 # Corpus Parts
 
 The corpus is provided in four parts, representing details and statistics of lyric words, songs, albums and lyrics. Details of the columns that comprise each of these parts are provided below.
