@@ -95,7 +95,7 @@ As described in the [PoSes](https://github.com/sagesolar/Corpus-of-Taylor-Swift#
 > [!NOTE]
 > Around 250 lyric words have not been assinged a frequency band, as they are not present in the WFWSE list. These include contractions, proper nouns, compound words and irregular interjections.
 
-### OECRank (Oxford English Corpus Rank)
+### OECRank _(Oxford English Corpus Rank)_
 
 The top 100 OEC ranked words of the English language are labelled 1-100 in this column. CoTS utilises these ranked words in several parts such as [NextWord](https://github.com/sagesolar/Corpus-of-Taylor-Swift#nextword1-2-3) and [Repeats](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats), and is therefore provided here for completeness. Due to WFWSE word variants, some OEC rankings appear more than once in the column, see the [Word](https://github.com/sagesolar/Corpus-of-Taylor-Swift#word) column regarding word groupings.
 
