@@ -237,7 +237,7 @@ This is the total count of lyric lines in a song.
 
 ### Verses / Bridges / Choruses / Refrains / InOuts (Intros/Outros)
 
-This is the total count of various song structure parts in a song (if any). For brevety, some similar song structure parts have been grouped together as detailed in the related Word Details section above.
+This is the total count of various song structure parts in a song (if any). For brevety, some similar song structure parts have been grouped together as detailed in the [related Word Details section](https://github.com/sagesolar/Corpus-of-Taylor-Swift#verse--bridge--chorus--refrain--inout-introoutro).
 
 ### Words
 
@@ -264,7 +264,7 @@ The lowest WFWSE frequency word that occurrs on an album. This is effectively th
 
 ### PrevalentVerb / Adjective / Noun
 
-The most common verb, adjective and noun that occur on an album. See the related [Song Details](https://github.com/sagesolar/Corpus-of-Taylor-Swift#song-details) section.
+The most common verb, adjective and noun that occur on an album (see the [related Song Details section](https://github.com/sagesolar/Corpus-of-Taylor-Swift#song-details).
 
 ### Songs
 
