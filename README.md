@@ -97,7 +97,7 @@ As described in the above `PoSes` section, due to the homographic nature of many
 
 ### OECRank (Oxford English Corpus Rank)
 
-The top 100 OEC ranked words of the English language are labelled 1-100 in this column. CoTS utilises these ranked words in several parts such as `NextWord` and `Repeats`, and is therefore provided here for completeness. Due to WFWSE word variants, some OEC rankings appear more than once in the column, see [Word](https://github.com/sagesolar/Corpus-of-Taylor-Swift/edit/main/README.md#word-details) regarding word groupings.
+The top 100 OEC ranked words of the English language are labelled 1-100 in this column. CoTS utilises these ranked words in several parts such as `NextWord` and `Repeats`, and is therefore provided here for completeness. Due to WFWSE word variants, some OEC rankings appear more than once in the column, see [Word](https://github.com/sagesolar/Corpus-of-Taylor-Swift#word) regarding word groupings.
 
 > [!NOTE]
 > Unlike the WFWSE, the OEC categorises the words `a` and `an` seperately, so for the purposes of the OEC rank they are treated as seperate words, with ranks of `6` and `32` respectively. This is the only instance that this denormalisation occurs.
