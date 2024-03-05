@@ -16,7 +16,7 @@ CoTS also makes use of the [top 100 most frequent words](https://en.wikipedia.or
 
 To ensure as complete lyric word categorisation as possible the following have been added to WFWSE word variants:
 
-- American word spellings
+- American word spellings, eg. `marvelous`
 - common acronyms, eg. `TV` or `FBI` 
 - simple contractions, eg. `havin'` or `playin'`
 - possessive nouns, eg. `friend's` or `parents'`
@@ -299,11 +299,11 @@ This is the total count of words on an album.
 
 This part of CoTS provides a flat set of all lyric lines in each song included in the dataset. Each lyric is labelled with `Album code`:`Track number`:`Lyric line number` as shown in the following example:
 
-`FOL:03:036` - _I had a marvellous time ruining everything_
+`FOL:03:036` - _I had a marvelous time ruining everything_
 
 ## Additional Files
-- [lyrics/album-song-lyrics.json](lyrics/album-song-lyrics.json) - This is the raw album, song and lyric dataset used to compile CoTS, presented in JSON format.
-- [lyrics/album-song-lyrics.json](lyrics/flat-song-lyrics.json) - This is the same flat set of lyric lines that is provided in CoTS, presented in JSON format.
-- [tsv/cots-word-details.tsv](tsv/cots-word-details.tsv) - The CoTS 'WordDetails' worksheet provided in TSV format. 
-- [tsv/cots-song-details.tsv](tsv/cots-song-details.tsv) - The CoTS 'SongDetails' worksheet provided in TSV format. 
-- [tsv/cots-album-details.tsv](tsv/cots-album-details.tsv) - The CoTS 'AlbumDetails' worksheet provided in TSV format. 
+- [lyrics/album-song-lyrics.json](lyrics/album-song-lyrics.json) - This is the raw album, song and lyric dataset used to compile CoTS.
+- [lyrics/album-song-lyrics.json](lyrics/flat-song-lyrics.json) - This is the same flat set of lyric lines that is provided in CoTS.
+- [tsv/cots-word-details.tsv](tsv/cots-word-details.tsv) - The CoTS 'WordDetails' worksheet provided in TSV format.
+- [tsv/cots-song-details.tsv](tsv/cots-song-details.tsv) - The CoTS 'SongDetails' worksheet provided in TSV format.
+- [tsv/cots-album-details.tsv](tsv/cots-album-details.tsv) - The CoTS 'AlbumDetails' worksheet provided in TSV format.
