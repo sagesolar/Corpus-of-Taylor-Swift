@@ -25,8 +25,6 @@ To ensure as complete lyric word categorisation as possible the following have b
 # Housekeeping
 
 - Two songs all two well and snow on the beach
-- contractions
-- https://worditout.com/word-cloud/create
 
 ## Album Codes
 
@@ -47,7 +45,7 @@ For brevety, CoTS uses the following album codes:
 
 # Corpus Parts
 
-The corpus is provided in three parts, representing details and statistics of the lyric words, songs and albums. Details of the columns that comprise each of these parts are provided below.
+The corpus is provided in four parts, representing details and statistics of lyric words, songs, albums and lyrics. Details of the columns that comprise each of these parts are provided below.
 
 ## Word Details
 
@@ -92,21 +90,21 @@ Additionaly the following three non-standard categories have been added for cont
 
 This is a word frequency band that each lyric word has been assinged. It has been derived from the WFWSE word frequency and using the [Fibonacci numbers F11 to F24](https://www.math.net/list-of-fibonacci-numbers) as banding intervals, 1 to 16. 
 
-As described in the above `PoSes` section, due to the homographic nature of many English language words, many lyric words are assinged multiple word frequency values. In order to present a single frequency band for each lyric word, the highest frequency value PoS of each lyric word was used when calculating a word's frequency band.
+As described in the [PoSes](https://github.com/sagesolar/Corpus-of-Taylor-Swift#poses-part-of-speeches) column, due to the homographic nature of many English language words, many lyric words are assinged multiple word frequency values. In order to present a single frequency band for each lyric word, the highest frequency value PoS of each lyric word was used when calculating a word's frequency band.
 
 > [!NOTE]
 > Around 250 lyric words have not been assinged a frequency band, as they are not present in the WFWSE list. These include contractions, proper nouns, compound words and irregular interjections.
 
 ### OECRank (Oxford English Corpus Rank)
 
-The top 100 OEC ranked words of the English language are labelled 1-100 in this column. CoTS utilises these ranked words in several parts such as `NextWord` and `Repeats`, and is therefore provided here for completeness. Due to WFWSE word variants, some OEC rankings appear more than once in the column, see [Word](https://github.com/sagesolar/Corpus-of-Taylor-Swift#word) regarding word groupings.
+The top 100 OEC ranked words of the English language are labelled 1-100 in this column. CoTS utilises these ranked words in several parts such as [NextWord](https://github.com/sagesolar/Corpus-of-Taylor-Swift#nextword1-2-3) and [Repeats](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats), and is therefore provided here for completeness. Due to WFWSE word variants, some OEC rankings appear more than once in the column, see the [Word](https://github.com/sagesolar/Corpus-of-Taylor-Swift#word) column regarding word groupings.
 
 > [!NOTE]
 > Unlike the WFWSE, the OEC categorises the words `a` and `an` seperately, so for the purposes of the OEC rank they are treated as seperate words, with ranks of `6` and `32` respectively. This is the only instance that this denormalisation occurs.
 
 ### CEFRLevel (Common European Framework of Reference for Languages Level)
 
-The 5000 most important words of the English language, as defined by the Oxford 5000 CEFR list, are provided, categorised into the following bands (A1 level words being the simplest words to understand when learning a language, then A2 and so on):
+The 5000 most important words of the English language, as defined by the Oxford 5000 CEFR list, are provided, categorised into the following bands in order of word simplicity when learning a language:
 
 - A1
 - A2
@@ -120,13 +118,13 @@ From research, it is not fully clear how to categorise words not included in thi
 
 Each lyric word in CoTS is listed with its next three most frequently occurring word. For example, the lyric word `high` has the `NextWord[1-2-3]` values:
 
-[`infidelity (6)`, `heels (4)`, `above (3)`]. 
+[ `infidelity (6)`, `heels (4)`, `above (3)` ]
 
 This can be read as the most frequent next word occurrence for the lyric word `high` across all songs/albums is `infidelity`, occurring 6 times. The next most frequent word occurrence is `heels`, occurring 4 times and the one after that is `above`, occurring 3 times. 
 
 If the top two (or more) occurring 'next' words share the same occurrence count, then they are presented in order of Album/Track Number occurrence.
 
-In an effort to increase the interest of these 'next' word lists, and to not innudate them with very common words, the top 50 words of the OEC have been filtered out of this part of CoTS. Furthermore 'next' words occurring at the end of lyric lines, within subsequent parenthesis or after punctioation marks (excluding commas) are not counted. Furthemore, repeated words are also not counted, as these are instead counted in the `Reps` column. For example, consider the following lyrics:
+In an effort to increase the interest of these 'next' word lists, and to not innudate them with very common words, the top 50 words of the OEC have been filtered out of this part of CoTS. Furthermore 'next' words occurring at the end of lyric lines, within subsequent parenthesis or after punctioation marks (excluding commas) are not counted. Furthemore, repeated words are also not counted, as these are instead counted in the [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats) column. For example, consider the following lyrics:
 
 1. >_In a storm, in my best dress, fearless_
 2. >_And people would say, "They're the lucky ones"_
@@ -139,7 +137,7 @@ These rules continue in the second example and on, including the word `say` whic
 
 In the third example both instances of the word `face` have no 'next' words, as their respective following words `Look` and `Gorgeous` are preceeded by parenthesis or punctioation marks. Notice that the commas in the first two examples do not exclude following words.
 
-Lastly, in the fourth example, the first two instances of the word `trouble` have no 'next' word as they are repititions of eachother (see `Reps` section below). The third instance of the word `trouble` has no 'next' word as the word `Oh` is enclosed in parenthesis.
+Lastly, in the fourth example, the first two instances of the word `trouble` have no 'next' word as they are repititions of eachother (see [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats) column). The third instance of the word `trouble` has no 'next' word as the word `Oh` is enclosed in parenthesis.
 
 ### Length
 
@@ -190,7 +188,7 @@ These are a collection of one or more labels representing the albums and corresp
 
 For example, the lyric word `blood` has the `AlbumOccurrences` values:
 
-[`NEN#19`, `FOL#2`, `EVE#1`, `MID#7`]
+[ `NEN#19`, `FOL#2`, `EVE#1`, `MID#7` ]
 
 This is interpreted as the word `blood` occurring 19 times on the album '1989', twice on the album 'Folklore', once on the album 'Evermore' and seven times on the album 'Midnights'.
 
@@ -200,7 +198,7 @@ These are a collection of one or more labels representing the album songs and co
 
 For example, the lyric word `kid` has the `SongOccurrences` values:
 
-[`RED:16#3`, `RED:30#1`, `FOL:10#2`, `EVE:5#2`, `MID:5#4`, `...MANY`]
+[ `RED:16#3`, `RED:30#1`, `FOL:10#2`, `EVE:5#2`, `MID:5#4`, `...MANY` ]
 
 This is interpreted as the word `kid` occurring 3 times on track 16 of the album 'Red', once on track 30 of the album 'Red', twice on track 10 of the album 'Folklore', and so on.
 
@@ -228,7 +226,7 @@ The lowest WFWSE frequency word that occurrs in a song. This is effectively the 
 
 The most common verb, adjective and noun that occur in a song. This can be seen as giving the song a (likely) unique three word cods. For example the song 'Out Of The Woods' on the album '1989' has the following prevelent verb / adjective / noun combination:
 
-[`remember`, `clear`, `woods`]
+[ `remember`, `clear`, `woods` ]
 
 > [!NOTE]
 > In an effort to increase the interest of these prevalent word lists, and to not innudate them with very common words, the top 100 words of the OEC have been filtered out of this part of CoTS. As ever, the homographic nature of English means that some of the chosen words might not be used as their assigned PoS in this part of CoTS, so these three words are provided more for fun. 
@@ -266,7 +264,7 @@ The lowest WFWSE frequency word that occurrs on an album. This is effectively th
 
 ### PrevalentVerb / Adjective / Noun
 
-The most common verb, adjective and noun that occur on an album. See the related Song Details section above.
+The most common verb, adjective and noun that occur on an album. See the related [Song Details](https://github.com/sagesolar/Corpus-of-Taylor-Swift#song-details) section.
 
 ### Songs
 
