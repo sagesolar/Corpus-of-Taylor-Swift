@@ -19,7 +19,7 @@ To ensure as complete lyric word categorisation as possible the following have b
 - American word spellings
 - common acronyms, eg. `TV` or `FBI` 
 - simple contractions, eg. `havin'` or `playin'`
-- possesive nouns, eg. `friend's` or `parent's`
+- possesive nouns, eg. `friend's` or `parents'`
 - numeric forms of numbers, eg. `13`
 
 # Housekeeping
