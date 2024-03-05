@@ -12,23 +12,23 @@ CoTS categorises lyric word frequencies, word variants and parts of speech (PoS)
 
 Lyric words have also been categorised using the [Oxford 5000 by CEFR level](https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000) word list, which ranks words based on language importance using the Common European Framework of Reference for Languages (CEFR).
 
-CoTS also makes use of the [top 100 most frequent words](https://en.wikipedia.org/wiki/Most_common_words_in_English) of the english language as defined by the Oxford English Corpus (OEC).
+CoTS also makes use of the [top 100 most frequent words](https://en.wikipedia.org/wiki/Most_common_words_in_English) of the English language as defined by the Oxford English Corpus (OEC).
 
 To ensure as complete lyric word categorisation as possible the following have been added to WFWSE word variants:
 
 - American word spellings
 - common acronyms, eg. `TV` or `FBI` 
 - simple contractions, eg. `havin'` or `playin'`
-- possesive nouns, eg. `friend's` or `parents'`
+- possessive nouns, eg. `friend's` or `parents'`
 - numeric forms of numbers, eg. `13`
 
 # Housekeeping
 
-- Two songs all two well and snow on the beach
+- Two songs all too well and snow on the beach
 
 ## Album Codes
 
-For brevety, CoTS uses the following album codes:
+For brevity, CoTS uses the following album codes when referring to albums:
 
 - TSW - Taylor Swift (aka Debut)
 - FER - Fearless
@@ -56,11 +56,11 @@ This part is the main body of the corpus and lists each lyric word along with va
 A word that appears one or more times, in one or more song lyrics. These are primarily presented in lower case, apart from in instances of proper nouns such as `Hollywood` or other ordinarily capitalised nouns such as `January`. Various tenses of the same word are grouped together in the same frequency banding/rank (eg. the words `doing`, `does`, `done`, `did` and `do` all share the same `FqBand`, `OECRank` and `CEFRLevel`).
 
 > [!NOTE]
-> Some proper nouns such as place names or names of individuals have been hyphanated to preserve the single word consistency when searching, eg. `New-York`, `Miss-Americana` and `Tim-McGraw`. Additionaly, for clarity the word `I` is listed as `i`.
+> Some proper nouns such as place names or names of individuals have been hyphenated to preserve the single word consistency when searching, eg. `New-York`, `Miss-Americana` and `Tim-McGraw`. Additionally, the word `I` is listed as `i`, for clarity.
 
 ### PoSes _(Part of Speech)_
 
-These are the standard gramatical categorisations that are assigned to English language words. The English language is comprised of many homographic words, which are words that are spelled the same but have different meanings or origins. Consider the word `close`, which can be an adjective, adverb, noun or verb, or the word `minute` which can be an adjective, noun or verb. As such, multiple PoS categories are often assinged to each lyric word in CoTS, and are listed in order of that word's PoS WFWSE frequency. 
+These are the standard grammatical categorisations that are assigned to English language words. The English language is comprised of many homographic words, which are words that are spelled the same but have different meanings or origins. Consider the word `close`, which can be an adjective, adverb, noun or verb, or the word `minute` which can be an adjective, noun or verb. As such, multiple PoS categories are often assigned to each lyric word in CoTS, and are listed in order of that word's PoS WFWSE frequency. 
 
 Standard PoS categories appear abbreviated within CoTS as follows:
 
@@ -77,7 +77,7 @@ Standard PoS categories appear abbreviated within CoTS as follows:
 - Pron - Pronoun 
 - Verb - Verb
 
-Additionaly the following three non-standard categories have been added for contraction words (eg. `doesn't`, `should've`), proper nouns (eg. `London`, `Halloween`, `Emma`) and currently unclassified words:
+Additionally, the following three non-standard categories have been added for contracted words (eg. `doesn't`, `should've`), proper nouns (eg. `London`, `Halloween`, `Emma`) and currently unclassified words:
 
 - Cont - Contraction
 - Prop - Proper Noun 
@@ -88,19 +88,19 @@ Additionaly the following three non-standard categories have been added for cont
 
 ### FqBand _(Frequency Band)_
 
-This is a word frequency band that each lyric word has been assinged. It has been derived from the WFWSE word frequency and using the [Fibonacci numbers F11 to F24](https://www.math.net/list-of-fibonacci-numbers) as banding intervals, 1 to 16. 
+This is a word frequency band that each lyric word has been assigned. It has been derived from the WFWSE word frequency and using the [Fibonacci numbers F11 to F24](https://www.math.net/list-of-fibonacci-numbers) as banding intervals, 1 to 16. 
 
-As described in the [PoSes](https://github.com/sagesolar/Corpus-of-Taylor-Swift#poses-part-of-speeches) column, due to the homographic nature of many English language words, many lyric words are assinged multiple word frequency values. In order to present a single frequency band for each lyric word, the highest frequency value PoS of each lyric word was used when calculating a word's frequency band.
+As described in the [PoSes](https://github.com/sagesolar/Corpus-of-Taylor-Swift#poses-part-of-speeches) column, due to the homographic nature of many English language words, many lyric words are assigned multiple word frequency values. In order to present a single frequency band for each lyric word, the highest frequency value PoS of each lyric word was used when calculating a word's frequency band.
 
 > [!NOTE]
-> Around 250 lyric words have not been assinged a frequency band, as they are not present in the WFWSE list. These include contractions, proper nouns, compound words and irregular interjections.
+> Around 250 lyric words have not been assigned a frequency band, as they are not present in the WFWSE list. These include contractions, proper nouns, compound words and irregular interjections.
 
 ### OECRank _(Oxford English Corpus Rank)_
 
-The top 100 OEC ranked words of the English language are labelled 1-100 in this column. CoTS utilises these ranked words in several parts such as [NextWord](https://github.com/sagesolar/Corpus-of-Taylor-Swift#nextword1-2-3) and [Repeats](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats), and is therefore provided here for completeness. Due to WFWSE word variants, some OEC rankings appear more than once in the column, see the [Word](https://github.com/sagesolar/Corpus-of-Taylor-Swift#word) column regarding word groupings.
+The top 100 OEC ranked words of the English language are labelled 1-100 in this column. CoTS utilises these ranked words in several parts such as [NextWord](https://github.com/sagesolar/Corpus-of-Taylor-Swift#nextword1-2-3), [Repeats](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats) and [PrevalentWords](https://github.com/sagesolar/Corpus-of-Taylor-Swift#prevalentverb--adjective--noun), and therefore these words ranks are provided in this column reference. Due to WFWSE word variants, some OEC rankings appear more than once in the column (see the [Word](https://github.com/sagesolar/Corpus-of-Taylor-Swift#word) column regarding word groupings).
 
 > [!NOTE]
-> Unlike the WFWSE, the OEC categorises the words `a` and `an` seperately, so for the purposes of the OEC rank they are treated as seperate words, with ranks of `6` and `32` respectively. This is the only instance that this denormalisation occurs.
+> Unlike the WFWSE, the OEC categorises the words `a` and `an` separately, so for the purposes of the OEC rank they are treated as separate words, with ranks of `6` and `32` respectively. This is the only instance that this denormalization occurs.
 
 ### CEFRLevel _(Common European Framework of Reference for Languages Level)_
 
@@ -112,11 +112,11 @@ The 5000 most important words of the English language, as defined by the Oxford 
 - B2
 - C1
  
-From research, it is not fully clear how to categorise words not included in this list. However they can be interpreted as less important than those words within the list, or more difficult to learn or both.
+From research, it is not fully clear how to categorise words not included in this list. However, they can be interpreted as less important than those words within the list, or more difficult to learn or both.
 
 ### NextWord[1-2-3]
 
-Each lyric word in CoTS is listed with its next three most frequently occurring worda. For example, the lyric word `high` has the `NextWord[1-2-3]` values:
+Each lyric word in CoTS is listed with its next three most frequently occurring words. For example, the lyric word `high` has the `NextWord[1-2-3]` values:
 
 [ `infidelity (6)`, `heels (4)`, `above (3)` ]
 
@@ -124,7 +124,7 @@ This can be read as the most frequent next word occurrence for the lyric word `h
 
 If the top two (or more) occurring 'next' words share the same occurrence count, then they are presented in order of Album/Track Number occurrence.
 
-In an effort to increase the interest of these 'next' word lists, and to not innudate them with very common words, the top 50 words of the OEC have been filtered out of this part of CoTS. Furthermore 'next' words occurring at the end of lyric lines, within subsequent parenthesis or after punctioation marks (excluding commas) are not counted. Repeated words are also not counted, as these are instead counted in the [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats) column.
+In an effort to increase the interest of these 'next' word lists, and to not inundate them with very common words, the top 50 words of the OEC have been filtered out of this part of CoTS. Furthermore 'next' words occurring at the end of lyric lines, within subsequent parenthesis or after punctuation marks (excluding commas) are not counted. Repeated words are also not counted, as these are instead counted in the [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats) column.
 
 <details>
 <summary>Lyric examples</summary>
@@ -139,9 +139,9 @@ In the first example, the words `In`, `storm` and `in` have no 'next' word, as t
 
 These rules continue in the second example and on, including the word `say` which has a 'next' word of `They're`, regardless of the double quote character.
 
-In the third example both instances of the word `face` have no 'next' words, as their respective following words `Look` and `Gorgeous` are preceeded by parenthesis or punctioation marks. Notice that the commas in the first two examples do not exclude following words.
+In the third example both instances of the word `face` have no 'next' words, as their respective following words `Look` and `Gorgeous` are preceded by parenthesis or punctuation marks. Notice that the commas in the first two examples do not exclude following words.
 
-Lastly, in the fourth example, the first two instances of the word `trouble` have no 'next' word as they are repititions of eachother (see [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats) column). The third instance of the word `trouble` has no 'next' word as the word `Oh` is enclosed in parenthesis.
+Lastly, in the fourth example, the first two instances of the word `trouble` have no 'next' word as they are repetitions of each other (see [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats) column). The third instance of the word `trouble` has no 'next' word as the word `Oh` is enclosed in parenthesis.
 </details>
 
 ### Length
@@ -150,7 +150,7 @@ This is the number of characters (including any hyphens) that comprise a lyric w
 
 ### Reps _(Repetitions)_
 
-This is the amount of times that a lyric word is repeated in lyric lines across all songs/albums. 
+This is the number of times that a lyric word is repeated in lyric lines across all songs/albums. 
 
 <details>
 <summary>Lyric examples</summary>
@@ -165,9 +165,9 @@ Consider the following lyrics:
 
 In the first three examples, the word `good` would be counted twice, the word `oh` is counted five times, the word `girl` would be counted twice and similar for the word `yeah`.
 
-CoTS splits apart words that have multiple uniform repetitions seperated by hyphens, so in the fourth and fifth examples the word `I` is counted seven times, and the word `oh` is counted three times.
+CoTS splits apart words that have multiple uniform repetitions separated by hyphens, so in the fourth and fifth examples the word `I` is counted seven times, and the word `oh` is counted three times.
 
-The final example is not counted as any repetititions, as `Ra-di` and later `di-da` are non uniform.
+The final example is not counted as any repetitions, as `Ra-di` and later `di-da` are non-uniform.
 </details>
 
 ### Count
@@ -176,7 +176,7 @@ This is the total count of instances of a lyric word across all songs/albums.
 
 ### Verse / Bridge / Chorus / Refrain / InOut _(Intro/Outro)_
 
-This is the total count of instances of a lyric word in various song structure parts across all songs/albums (if any). For brevety, some similar song structure parts have been grouped together as follows:
+This is the total count of instances of a lyric word in various song structure parts across all songs/albums (if any). For brevity, some similar song structure parts have been grouped together as follows:
 
 - Bridge - (also includes breaks, breakdowns, buildups and interludes)
 - Chorus - (also includes pre-choruses and post-choruses)
@@ -204,7 +204,7 @@ This is interpreted as the word `blood` occurring 19 times on the album '1989', 
 
 ### SongOccurrences
 
-These are a collection of one or more labels representing the album songs and corresponding times that a lyric word occurs in each song. If a lyric word occurrs on more than five songs, then the first five songs are listed, followed by a `...MANY` label to represent the rest.
+These are a collection of one or more labels representing the album songs and corresponding times that a lyric word occurs in each song. If a lyric word occurs on more than five songs, then the first five songs are listed, followed by a `...MANY` label to represent the rest.
 
 For example, the lyric word `kid` has the `SongOccurrences` values:
 
@@ -230,16 +230,16 @@ Set to `Yes` if the song was released 'from the vault', `No` otherwise.
 
 ### LowestFreqWord
 
-The lowest WFWSE frequency word that occurrs in a song. This is effectively the most obscure word in a song according to the WFWSE.
+The lowest WFWSE frequency word that occurs in a song. This is effectively the most obscure word in a song according to the WFWSE.
 
 ### PrevalentVerb / Adjective / Noun
 
-The most common verb, adjective and noun that occur in a song. This can be seen as giving the song a (likely) unique three word cods. For example the song 'Out Of The Woods' on the album '1989' has the following prevelent verb / adjective / noun combination:
+The most common verb, adjective and noun that occur in a song. This can be seen as giving the song a (likely) unique three-word codes. For example, the song 'Out Of The Woods' on the album '1989' has the following prevalent verb / adjective / noun combination:
 
 [ `remember`, `clear`, `woods` ]
 
 > [!NOTE]
-> In an effort to increase the interest of these prevalent word lists, and to not innudate them with very common words, the top 100 words of the OEC have been filtered out of this part of CoTS. As ever, the homographic nature of English means that some of the chosen words might not be used as their assigned PoS in this part of CoTS, so these three words are provided more for fun. 
+> In an effort to increase the interest of these prevalent word lists, and to not inundate them with very common words, the top 100 words of the OEC have been filtered out of this part of CoTS. As ever, the homographic nature of English means that some of the chosen words might not be used as their assigned PoS in this part of CoTS, so these three words are provided more for fun. 
 
 ### Lines
 
@@ -247,7 +247,7 @@ This is the total count of lyric lines in a song.
 
 ### Verses / Bridges / Choruses / Refrains / InOuts _(Intros/Outros)_
 
-This is the total count of various song structure parts in a song (if any). For brevety, some similar song structure parts have been grouped together as detailed in the [related Word Details section](https://github.com/sagesolar/Corpus-of-Taylor-Swift#verse--bridge--chorus--refrain--inout-introoutro).
+This is the total count of various song structure parts in a song (if any). For brevity, some similar song structure parts have been grouped together as detailed in the [related Word Details section](https://github.com/sagesolar/Corpus-of-Taylor-Swift#verse--bridge--chorus--refrain--inout-introoutro).
 
 ### Words
 
@@ -255,7 +255,7 @@ This is the total count of words in a song.
 
 ### GeniusUrl
 
-The genius.com link corresponding to a song.
+The [genius.com](https://genius.com/artists/Taylor-swift) link corresponding to a song.
 
 ## Album Details
 
@@ -270,7 +270,7 @@ An album's code, title, subtitle (if any) and release year.
 
 ### LowestFreqWord
 
-The lowest WFWSE frequency word that occurrs on an album. This is effectively the most obscure word on an album according to the WFWSE.
+The lowest WFWSE frequency word that occurs on an album. This is effectively the most obscure word on an album according to the WFWSE.
 
 ### PrevalentVerb / Adjective / Noun
 
@@ -288,7 +288,7 @@ This is the total count of words on an album.
 
 This part of CoTS provides a flat set of all lyric lines in each song included in the dataset. Each lyric is labelled with `Album code`:`Track number`:`Lyric line number` as shown in the following example:
 
-`FOL:03:036` - _I had a marvelous time ruining everything_
+`FOL:03:036` - _I had a marvellous time ruining everything_
 
 ## Additional Files
 - [lyrics/album-song-lyrics.json](lyrics/album-song-lyrics.json) - This is the raw album, song and lyric dataset used to compile CoTS, presented in JSON format.
