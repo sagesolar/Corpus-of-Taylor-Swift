@@ -124,9 +124,7 @@ This can be read as the most frequent next word occurrence for the lyric word `h
 
 If the top two (or more) occurring 'next' words share the same occurrence count, then they are presented in order of Album/Track Number occurrence.
 
-In an effort to increase the interest of these 'next' word lists, and to not innudate them with very common words, the top 50 words of the OEC have been filtered out of this part of CoTS. Furthermore 'next' words occurring at the end of lyric lines, within subsequent parenthesis or after punctioation marks (excluding commas) are not counted. 
-
-Furthemore, repeated words are also not counted, as these are instead counted in the [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats) column. For example, consider the following lyrics:
+In an effort to increase the interest of these 'next' word lists, and to not innudate them with very common words, the top 50 words of the OEC have been filtered out of this part of CoTS. Furthermore 'next' words occurring at the end of lyric lines, within subsequent parenthesis or after punctioation marks (excluding commas) are not counted. Repeated words are also not counted, as these are instead counted in the [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats) column. For example, consider the following lyrics:
 
 1. >_In a storm, in my best dress, fearless_
 2. >_And people would say, "They're the lucky ones"_
