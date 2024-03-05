@@ -116,7 +116,7 @@ From research, it is not fully clear how to categorise words not included in thi
 
 ### NextWord[1-2-3]
 
-Each lyric word in CoTS is listed with its next three most frequently occurring word. For example, the lyric word `high` has the `NextWord[1-2-3]` values:
+Each lyric word in CoTS is listed with its next three most frequently occurring worda. For example, the lyric word `high` has the `NextWord[1-2-3]` values:
 
 [ `infidelity (6)`, `heels (4)`, `above (3)` ]
 
@@ -124,7 +124,11 @@ This can be read as the most frequent next word occurrence for the lyric word `h
 
 If the top two (or more) occurring 'next' words share the same occurrence count, then they are presented in order of Album/Track Number occurrence.
 
-In an effort to increase the interest of these 'next' word lists, and to not innudate them with very common words, the top 50 words of the OEC have been filtered out of this part of CoTS. Furthermore 'next' words occurring at the end of lyric lines, within subsequent parenthesis or after punctioation marks (excluding commas) are not counted. Repeated words are also not counted, as these are instead counted in the [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats) column. For example, consider the following lyrics:
+In an effort to increase the interest of these 'next' word lists, and to not innudate them with very common words, the top 50 words of the OEC have been filtered out of this part of CoTS. Furthermore 'next' words occurring at the end of lyric lines, within subsequent parenthesis or after punctioation marks (excluding commas) are not counted. Repeated words are also not counted, as these are instead counted in the [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats) column.
+
+<details>
+<summary>Lyric examples</summary>
+Consider the following lyrics:
 
 1. >_In a storm, in my best dress, fearless_
 2. >_And people would say, "They're the lucky ones"_
@@ -138,6 +142,7 @@ These rules continue in the second example and on, including the word `say` whic
 In the third example both instances of the word `face` have no 'next' words, as their respective following words `Look` and `Gorgeous` are preceeded by parenthesis or punctioation marks. Notice that the commas in the first two examples do not exclude following words.
 
 Lastly, in the fourth example, the first two instances of the word `trouble` have no 'next' word as they are repititions of eachother (see [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats) column). The third instance of the word `trouble` has no 'next' word as the word `Oh` is enclosed in parenthesis.
+</details>
 
 ### Length
 
@@ -145,7 +150,11 @@ This is the number of characters (including any hyphens) that comprise a lyric w
 
 ### Reps (Repeats)
 
-This is the amount of times that a lyric word is repeated in lyric lines across all songs/albums. For example, consider the following lyrics:
+This is the amount of times that a lyric word is repeated in lyric lines across all songs/albums. 
+
+<details>
+<summary>Lyric examples</summary>
+Consider the following lyrics:
 
 1. >_It just felt so good, good_
 2. >_Twenty-two (Oh, oh, oh, oh, oh)_
@@ -159,6 +168,7 @@ In the first three examples, the word `good` would be counted twice, the word `o
 CoTS splits apart words that have multiple uniform repetitions seperated by hyphens, so in the fourth and fifth examples the word `I` is counted seven times, and the word `oh` is counted three times.
 
 The final example is not counted as any repetititions, as `Ra-di` and later `di-da` are non uniform.
+</details>
 
 ### Count
 
