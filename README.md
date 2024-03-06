@@ -99,7 +99,7 @@ Additionally, the following three non-standard categories have been added for co
 
 ### FqBand _(Frequency Band)_
 
-This is a word frequency band that each lyric word has been assigned. It has been derived from the WFWSE word frequency and using the [Fibonacci numbers F11 to F24](https://www.math.net/list-of-fibonacci-numbers) as banding intervals, 1 to 16. 
+This is a word frequency band that each lyric word has been assigned. It has been derived from the WFWSE word frequency and using the [Fibonacci numbers F11 to F24](https://www.math.net/list-of-fibonacci-numbers) as banding intervals, 🚩1 to 🚩16. 
 
 As described in the [PoSes](https://github.com/sagesolar/Corpus-of-Taylor-Swift#poses-part-of-speeches) column, due to the homographic nature of many English language words, many lyric words are assigned multiple word frequency values. In order to present a single frequency band for each lyric word, the highest frequency value PoS of each lyric word was used when calculating a word's frequency band.
 
