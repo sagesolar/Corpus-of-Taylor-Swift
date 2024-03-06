@@ -178,7 +178,7 @@ Consider the following lyrics:
 5. >_In a getaway car (Oh-oh-oh)_ 🚗
 6. >_Ra-di-di-di-di-di-di-di-di-di-da-da_
 
-In the first three examples, the word `good` would be counted twice, the word `oh` is counted five times, the word `girl` would be counted twice and similar for the word `yeah`.
+In the first three examples, the word `good` would be counted twice, the word `oh` is counted five times, the word `girl` would be counted twice and the same for the word `yeah`.
 
 CoTS splits apart words that have multiple uniform repetitions separated by hyphens, so in the fourth and fifth examples the word `I` is counted seven times, and the word `oh` is counted three times.
 
