@@ -20,7 +20,7 @@ To ensure as complete lyric word categorisation as possible the following have b
 - common acronyms, eg. `TV` or `FBI` 
 - simple contractions, eg. `havin'` or `playin'`
 - possessive nouns, eg. `friend's` or `parents'`
-- numeric forms of numbers, eg. `13`
+- numeric forms of numbers, eg. `13`🐍
 
 # Housekeeping
 
