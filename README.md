@@ -62,7 +62,7 @@ The corpus is provided in four parts, representing details and statistics of lyr
 
 ![CoTS word cloud](img/eras-colours-divider.png)
 
-## Word Details 🖋
+## Word Details 💬
 
 This part is the main body of the corpus and lists each lyric word along with various categorisation/statistical/labelling columns related to the word. These are detailed below.
 
