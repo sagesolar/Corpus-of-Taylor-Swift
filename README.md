@@ -134,7 +134,7 @@ The top 100 OEC ranked words of the English language are labelled 1-100 in this 
 
 ### CEFRLevel _(Common European Framework of Reference for Languages Level)_
 
-The 5000 most important words of the English language, as defined by the Oxford 5000 CEFR list, are provided, categorised into the following bands in order of word simplicity when learning a language:
+The 5000 most important words of the English language, as defined by the Oxford 5000 CEFR list, are provided in this column. They are categorised into the following bands in order of word simplicity when learning a language:
 
 - A1
 - A2
@@ -142,19 +142,21 @@ The 5000 most important words of the English language, as defined by the Oxford 
 - B2
 - C1
  
-The Oxford 5000 CEFR list does not include C2 categorised words, however they can be interpreted as less important than those words within the list, or more difficult to learn or both.
+The Oxford 5000 CEFR list does not include 'C2' categorised words, however non-categorised words in this column can be interpreted as less important than words within the list, or more difficult to learn or both.
 
 ### NextWord[1-2-3]
 
-Each lyric word in CoTS is listed with its next three most frequently occurring words. For example, the lyric word `high` has the `NextWord[1-2-3]` values:
+Each lyric word in CoTS is listed with its next three most frequently occurring words in these columns. For example, the lyric word `high` has the `NextWord[1-2-3]` values:
 
 [ `infidelity (6)`, `heels (4)`, `above (3)` ]
 
-This can be read as the most frequent next word occurrence for the lyric word `high` across all songs/albums is `infidelity`, occurring 6 times. The next most frequent word occurrence is `heels`, occurring 4 times and the one after that is `above`, occurring 3 times. 
+This can be read as the most frequent next word occurrence for the lyric word `high` across all songs and albums is `infidelity`, occurring 6 times. The next most frequent word occurrence is `heels`, occurring 4 times and the one after that is `above`, occurring 3 times. 
 
-If the top two (or more) occurring 'next' words share the same occurrence count, then they are presented in order of Album/Track Number occurrence.
+If 'next' words share the same occurrence count, then they are presented in order of Album/Track Number occurrence.
 
-In an effort to increase the interest of these 'next' word lists, and to not inundate them with very common words, the top 50 words of the OEC have been filtered out of this part of CoTS. Furthermore 'next' words occurring at the end of lyric lines, within subsequent parenthesis or after punctuation marks (excluding commas) are not counted. Repeated words are also not counted, as these are instead counted in the [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repetitions) column.
+In an effort to increase the interest of these 'next' word columns, and as to not inundate them with very common words, the top 50 words of the OEC have been filtered out of the columns. Furthermore 'next' words occurring within subsequent parenthesis or after punctuation marks (excluding commas) are not counted. 
+
+Repeated words are also not included, as these are instead counted in the [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repetitions) column. Lastly, a word occurring at the end of a lyric line has no 'next' word, and if that is the only occurrence of the word across all songs and albums, it will have no 'next' words assinged.
 
 <details>
 <summary>Lyric examples</summary>
@@ -165,13 +167,13 @@ Consider the following lyrics:
 3. >_'Cause look at your face (Look at your face; Gorgeous)_
 4. >_Trouble, trouble, trouble (Oh)_
 
-In the first example, the words `In`, `storm` and `in` have no 'next' word, as their respective following words `a` and `in` and `my` are in the OEC top 50. Conversely the words `a`, `my`, `best` and `dress`  have respective 'next' words of `storm`, `best`, `dress` and `fearless`.
+In the first example, the words `In`, `storm` and `in` have no 'next' word, as their respective following words `a` and `in` and `my` are in the OEC top 50 words. Conversely the words `a`, `my`, `best` and `dress`  have respective 'next' words of `storm`, `best`, `dress` and `fearless`. The word `fearless` has no 'next' word as it occurs at the end of the lyric line.
 
-These rules continue in the second example and on, including the word `say` which has a 'next' word of `They're`, regardless of the double quote character.
+These rules continue in the second example and on, including the word `say` which has a 'next' word of `They're`, regardless of it's preceding double quote character.
 
 In the third example both instances of the word `face` have no 'next' words, as their respective following words `Look` and `Gorgeous` are preceded by parenthesis or punctuation marks. Notice that the commas in the first two examples do not exclude following words.
 
-Lastly, in the fourth example, the first two instances of the word `trouble` have no 'next' word as they are repetitions of each other (see [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repetitions) column). The third instance of the word `trouble` has no 'next' word as the word `Oh` is enclosed in parenthesis.
+Lastly, in the fourth example, the first two instances of the word `trouble` have no 'next' word as they are repetitions of each other (see the [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repetitions) column). The third instance of the word `trouble` has no 'next' word as its following word `Oh` is enclosed in parenthesis.
 </details>
 
 ### Length
@@ -180,7 +182,7 @@ This is the number of characters (including any hyphens) that comprise a lyric w
 
 ### Reps _(Repetitions)_
 
-This is the number of times that a lyric word is repeated in lyric lines across all songs/albums. 
+This is the number of times that a lyric word is repeated in lyric lines across all songs and albums. 
 
 <details>
 <summary>Lyric examples</summary>
@@ -202,17 +204,17 @@ The final example is not counted as any repetitions, as `Ra-di` and later `di-da
 
 ### Count
 
-This is the total count of instances of a lyric word across all songs/albums.
+This is the total count of instances of a lyric word across all songs and albums.
 
 ### Verse / Bridge / Chorus / Refrain / InOut _(Intro/Outro)_
 
-This is the total count of instances of a lyric word in various song structure parts across all songs/albums (if any). For brevity, some similar song structure parts have been grouped together as follows:
+These columns hold the total count of instances of a lyric word in various song structure parts across all songs and albums (if any). For brevity, some similar song structure parts have been grouped together as follows:
 
-- Bridge - (also includes breaks, breakdowns, buildups and interludes)
-- Chorus - (also includes pre-choruses and post-choruses)
-- InOut - (includes intros, outros, and spoken outros)
-- Refrain - (no other inclusions)
-- Verse - (no other inclusions)
+- Bridge - also includes breaks, breakdowns, buildups and interludes
+- Chorus - also includes pre-choruses and post-choruses
+- InOut - includes intros, outros, and spoken outros
+- Refrain - no other inclusions
+- Verse - no other inclusions
 
 ### AlbumCount
 
@@ -224,7 +226,7 @@ This is the total count of songs that a lyric word occurs at least once in.
 
 ### AlbumOccurrences
 
-These are a collection of one or more labels representing the albums and corresponding album song count that a lyric word occurs on. 
+These are a collection of one or more labels representing albums and corresponding times that a lyric word occurs on each album. 
 
 For example, the lyric word `blood` has the `AlbumOccurrences` values:
 
@@ -234,7 +236,7 @@ This is interpreted as the word `blood` occurring 19 times on the album '1989', 
 
 ### SongOccurrences
 
-These are a collection of one or more labels representing the album songs and corresponding times that a lyric word occurs in each song. If a lyric word occurs on more than five songs, then the first five songs are listed, followed by a `...MANY` label to represent the rest.
+These are a collection of one or more labels representing album songs and corresponding times that a lyric word occurs in each song. If a lyric word occurs in more than five songs, then the first five songs are listed, followed by a `...MANY` label to represent the rest.
 
 For example, the lyric word `kid` has the `SongOccurrences` values:
 
@@ -250,7 +252,7 @@ This part of CoTS provides summary details and statistics for each song that is 
 
 ### Album / Track / Title
 
-A song's album code, track number and title.
+These columns provide a song's album code, track number and title.
 
 ### FeaturedArtists
 
@@ -266,12 +268,12 @@ The lowest WFWSE frequency word that occurs in a song. This is effectively the m
 
 ### PrevalentVerb / Adjective / Noun
 
-The most common verb, adjective and noun that occur in a song. This can be seen as giving the song a (likely) unique three-word codes. For example, the song 'Out Of The Woods' on the album '1989' has the following prevalent verb / adjective / noun combination:
+These columns list the most common verb, adjective and noun that occur in a song. This can be seen as giving the song a (likely) unique three-word code. For example, the song 'Out Of The Woods' on the album '1989' has the following prevalent verb / adjective / noun combination:
 
 [ `remember`, `clear`, `woods` ]
 
 > [!NOTE]
-> In an effort to increase the interest of these prevalent word lists, and to not inundate them with very common words, the top 100 words of the OEC have been filtered out of this part of CoTS. As ever, the homographic nature of English means that some of the chosen words might not be used as their assigned PoS in this part of CoTS, so these three words are provided more for fun. 
+> In an effort to increase the interest of these prevalent word columns, and to not inundate them with very common words, the top 100 words of the OEC have been filtered out from the columns. As ever, the homographic nature of English means that some of the matched words might not be used in a song as their PoS categorisation in these columns, so words in these columns are to be taken with a pinch of salt. 
 
 ### Lines
 
@@ -279,7 +281,7 @@ This is the total count of lyric lines in a song.
 
 ### Verses / Bridges / Choruses / Refrains / InOuts _(Intros/Outros)_
 
-This is the total count of various song structure parts in a song (if any). For brevity, some similar song structure parts have been grouped together as detailed in the [related Word Details section](https://github.com/sagesolar/Corpus-of-Taylor-Swift#verse--bridge--chorus--refrain--inout-introoutro).
+This is the total count of various song structure parts in a song (if any). For brevity, some similar song structure parts have been grouped together as detailed in the related [Word Details part](https://github.com/sagesolar/Corpus-of-Taylor-Swift#verse--bridge--chorus--refrain--inout-introoutro).
 
 ### Words
 
@@ -297,7 +299,7 @@ This part of CoTS provides summary details and statistics for each album that is
 
 ###  Code / Title / SubTitle / Year
 
-An album's code, title, subtitle (if any) and release year. 
+These columns provide an album's code, title, subtitle (if any) and release year. 
 
 > [!NOTE]
 > For 'Taylor's Version' albums, the year is set to the 'TV' release year.
@@ -308,7 +310,7 @@ The lowest WFWSE frequency word that occurs on an album. This is effectively the
 
 ### PrevalentVerb / Adjective / Noun
 
-The most common verb, adjective and noun that occur on an album (see the [related Song Details section](https://github.com/sagesolar/Corpus-of-Taylor-Swift#song-details)).
+These columns list the most common verb, adjective and noun that occur on an album (see the related [Song Details part](https://github.com/sagesolar/Corpus-of-Taylor-Swift#song-details) for more details).
 
 ### Songs
 
@@ -322,6 +324,6 @@ This is the total count of words on an album.
 
 ## Lyrics 🎙
 
-This part of CoTS provides a flat set of all lyric lines in each song included in the dataset. Each lyric is labelled with `Album code`:`Track number`:`Lyric line number` as shown in the following example:
+This part of CoTS provides a flat set of all lyric lines in each song included in the dataset. Each lyric is labelled with `Album code` : `Track number` : `Lyric line number` as shown in the following example:
 
 `FOL:03:036` - _I had a marvelous time ruining everything_ 🥂
