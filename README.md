@@ -305,7 +305,7 @@ This is the total count of words on an album.
 
 ![CoTS word cloud](img/eras-colours-divider.png)
 
-## Lyrics
+## Lyrics 🎙
 
 This part of CoTS provides a flat set of all lyric lines in each song included in the dataset. Each lyric is labelled with `Album code`:`Track number`:`Lyric line number` as shown in the following example:
 
