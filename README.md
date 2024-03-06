@@ -1,6 +1,6 @@
 # Corpus of Taylor Swift _(CoTS)_
 
-![CoTS word cloud](img/cots-word-cloud.png)
+![CoTS word cloud](img/eras-colours-divider.png)
 
 # Introduction 🐈
 
