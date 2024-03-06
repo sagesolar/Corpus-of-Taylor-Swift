@@ -311,7 +311,12 @@ This part of CoTS provides a flat set of all lyric lines in each song included i
 
 `FOL:03:036` - _I had a marvelous time ruining everything_ 🥂
 
-## Additional Files 📜
+![CoTS word cloud](img/eras-colours-divider.png)
+
+# Supplemental Files 📜
+
+The following files are provided in addition to the main CoTS file:
+
 - [lyrics/album-song-lyrics.json](lyrics/album-song-lyrics.json) - This is the raw album, song and lyric dataset used to compile CoTS.
 - [lyrics/album-song-lyrics.json](lyrics/flat-song-lyrics.json) - This is the same flat set of lyric lines that is provided in CoTS.
 - [tsv/cots-word-details.tsv](tsv/cots-word-details.tsv) - The CoTS 'WordDetails' worksheet provided in TSV format.
