@@ -112,7 +112,7 @@ As described in the [PoSes](https://github.com/sagesolar/Corpus-of-Taylor-Swift#
 
 ### OECRank _(Oxford English Corpus Rank)_
 
-The top 100 OEC ranked words of the English language are labelled 1-100 in this column. CoTS utilises these ranked words in several parts such as [NextWord](https://github.com/sagesolar/Corpus-of-Taylor-Swift#nextword1-2-3), [Repeats](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats) and [PrevalentWords](https://github.com/sagesolar/Corpus-of-Taylor-Swift#prevalentverb--adjective--noun), and therefore these words ranks are provided in this column reference. Due to WFWSE word variants, some OEC rankings appear more than once in the column (see the [Word](https://github.com/sagesolar/Corpus-of-Taylor-Swift#word) column regarding word groupings).
+The top 100 OEC ranked words of the English language are labelled 1-100 in this column. CoTS utilises these ranked words in several parts such as [NextWord](https://github.com/sagesolar/Corpus-of-Taylor-Swift#nextword1-2-3), [Repeats](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repetitions) and [PrevalentWords](https://github.com/sagesolar/Corpus-of-Taylor-Swift#prevalentverb--adjective--noun), and therefore these words ranks are provided in this column reference. Due to WFWSE word variants, some OEC rankings appear more than once in the column (see the [Word](https://github.com/sagesolar/Corpus-of-Taylor-Swift#word) column regarding word groupings).
 
 > [!NOTE]
 > Unlike the WFWSE, the OEC categorises the words `a` and `an` separately, so for the purposes of the OEC rank they are treated as separate words, with ranks of `6` and `32` respectively. This is the only instance that this denormalization occurs.
@@ -139,7 +139,7 @@ This can be read as the most frequent next word occurrence for the lyric word `h
 
 If the top two (or more) occurring 'next' words share the same occurrence count, then they are presented in order of Album/Track Number occurrence.
 
-In an effort to increase the interest of these 'next' word lists, and to not inundate them with very common words, the top 50 words of the OEC have been filtered out of this part of CoTS. Furthermore 'next' words occurring at the end of lyric lines, within subsequent parenthesis or after punctuation marks (excluding commas) are not counted. Repeated words are also not counted, as these are instead counted in the [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats) column.
+In an effort to increase the interest of these 'next' word lists, and to not inundate them with very common words, the top 50 words of the OEC have been filtered out of this part of CoTS. Furthermore 'next' words occurring at the end of lyric lines, within subsequent parenthesis or after punctuation marks (excluding commas) are not counted. Repeated words are also not counted, as these are instead counted in the [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repetitions) column.
 
 <details>
 <summary>Lyric examples</summary>
@@ -156,7 +156,7 @@ These rules continue in the second example and on, including the word `say` whic
 
 In the third example both instances of the word `face` have no 'next' words, as their respective following words `Look` and `Gorgeous` are preceded by parenthesis or punctuation marks. Notice that the commas in the first two examples do not exclude following words.
 
-Lastly, in the fourth example, the first two instances of the word `trouble` have no 'next' word as they are repetitions of each other (see [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repeats) column). The third instance of the word `trouble` has no 'next' word as the word `Oh` is enclosed in parenthesis.
+Lastly, in the fourth example, the first two instances of the word `trouble` have no 'next' word as they are repetitions of each other (see [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repetitions) column). The third instance of the word `trouble` has no 'next' word as the word `Oh` is enclosed in parenthesis.
 </details>
 
 ### Length
