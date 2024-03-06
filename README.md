@@ -120,7 +120,7 @@ Additionally, the following non-standard categories have been added for contract
 
 This is a word frequency band that each lyric word has been assigned. It has been derived from the WFWSE word frequency, and using the [Fibonacci numbers F11 to F24](https://www.math.net/list-of-fibonacci-numbers) as banding boundaries, values of `🚩1` to `🚩16` have been assinged. The lower the band value, the less frequently a word occurs in English, according to the WFWSE.
 
-As described in the [PoSes](https://github.com/sagesolar/Corpus-of-Taylor-Swift#poses-part-of-speeches) column, due to the homographic nature of many English language words, many lyric words are assigned multiple word frequency values. In order to present a single frequency band for each lyric word, the highest frequency value PoS of each lyric word was used when assigning a word's frequency band.
+As described in the [PoSes](https://github.com/sagesolar/Corpus-of-Taylor-Swift#poses-part-of-speech) column, due to the homographic nature of many English language words, many lyric words are assigned multiple word frequency values. In order to present a single frequency band for each lyric word, the highest frequency value PoS of each lyric word was used when assigning a word's frequency band.
 
 > [!NOTE]
 > Around 250 lyric words have not been assigned a frequency band, as they are not present in the WFWSE list. These include contractions, proper nouns, compound words and irregular interjections.
