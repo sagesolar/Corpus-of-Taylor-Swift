@@ -58,11 +58,11 @@ The following lyric words have been replaced with WFWSE equivalents:
 
 The corpus is provided in four parts, representing details and statistics of lyric words, songs, albums and lyrics. Details of the columns that comprise each of these parts are provided below.
 
+![CoTS word cloud](img/eras-colours-divider.png)
+
 ## Word Details 🖋
 
 This part is the main body of the corpus and lists each lyric word along with various categorisation/statistical/labelling columns related to the word. These are detailed below.
-
-![CoTS word cloud](img/eras-colours-divider.png)
 
 ### Word
 
@@ -225,9 +225,9 @@ For example, the lyric word `kid` has the `SongOccurrences` values:
 
 This is interpreted as the word `kid` occurring 3 times on track 16 of the album 'Red', once on track 30 of the album 'Red', twice on track 10 of the album 'Folklore', and so on.
 
-## Song Details 🎶
-
 ![CoTS word cloud](img/eras-colours-divider.png)
+
+## Song Details 🎶
 
 This part of CoTS provides summary details and statistics for each song that is included in the dataset.
 
@@ -272,9 +272,9 @@ This is the total count of words in a song.
 
 The [genius.com](https://genius.com/artists/Taylor-swift) link corresponding to a song.
 
-## Album Details 💿
-
 ![CoTS word cloud](img/eras-colours-divider.png)
+
+## Album Details 💿
 
 This part of CoTS provides summary details and statistics for each album that is included in the dataset.
 
@@ -301,9 +301,9 @@ This is the total count of songs that are on an album.
 
 This is the total count of words on an album.
 
-## Lyrics
-
 ![CoTS word cloud](img/eras-colours-divider.png)
+
+## Lyrics
 
 This part of CoTS provides a flat set of all lyric lines in each song included in the dataset. Each lyric is labelled with `Album code`:`Track number`:`Lyric line number` as shown in the following example:
 
