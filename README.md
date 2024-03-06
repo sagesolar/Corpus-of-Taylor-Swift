@@ -4,19 +4,21 @@
 
 # Introduction
 
-This is a dataset consisting of all song lyric words found on all of Taylor Swift's studio albums, as well as a selection of other songs written by her. CoTS is generated using 'Taylor's Version' album lyrics where available, and includes all bonus/'from the vault' songs. In order prevent duplicate counts of lyric words, versions of songs that are pure remixes or accoustic/piano performances of original songs are not included. Happy frienship bracelet making! 🐈
+This is a dataset consisting of all song lyric words found on all of Taylor Swift's studio albums, as well as a selection of other songs written by her. CoTS is generated using 'Taylor's Version' album lyrics where available, and includes all bonus tracks or 'from the vault' songs. There is intent to keep this dataset updated as new material is released in future.
+
+Happy browsing and frienship bracelet making! 🐈
 
 ![CoTS word cloud](img/cots-word-cloud.png)
 
 # Word Categorisation
 
-CoTS categorises lyric word frequencies, word variants and parts of speech (PoS) as defined by the [Word Frequency in Written and Spoken English (WFWSE)](https://ucrel.lancs.ac.uk/bncfreq/flists.html) list. 
+CoTS assigns word frequencies, parts of speech (PoS) and word variants to lyric words as defined by the [Word Frequency in Written and Spoken English (WFWSE)](https://ucrel.lancs.ac.uk/bncfreq/flists.html) list. 
 
-Lyric words have also been categorised using the [Oxford 5000 by CEFR level](https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000) word list, which ranks words based on language importance using the Common European Framework of Reference for Languages (CEFR).
+Lyric words have also been categorised using the [Oxford 5000 by CEFR level](https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000) word list, which ranks words based on their importance to a language using the [Common European Framework of Reference for Languages (CEFR)](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions).
 
-CoTS also makes use of the [top 100 most frequent words](https://en.wikipedia.org/wiki/Most_common_words_in_English) of the English language as defined by the Oxford English Corpus (OEC).
+CoTS also utilises the [Oxford English Corpus (OEC) top 100 most frequent words](https://en.wikipedia.org/wiki/Most_common_words_in_English) of the English language, as described in several sections below.
 
-To ensure as complete lyric word categorisation as possible the following have been added to WFWSE word variants:
+To ensure as complete lyric word categorisation as possible, the following have been added to WFWSE word variants, as applicable:
 
 - American word spellings, eg. `marvelous`
 - common acronyms, eg. `TV` or `FBI` 
@@ -24,15 +26,22 @@ To ensure as complete lyric word categorisation as possible the following have b
 - possessive nouns, eg. `friend's` or `parents'`
 - numeric forms of numbers, eg. `13`🐍
 
-# Housekeeping
+Moreover, the following lyric words have been replaced with WFWSE equivalents: 
 
-- Two songs all too well and snow on the beach
+- `rollercoaster` is listed as `roller-coaster`
+- `lighthearted` is listed as `light-hearted`
+- `nightlight` is listed as `night-light`
+- `fairytale` is listed as `fairy-tale` 📘
+- `namedropping` is listed as `name-dropping`
+- `takeout` is listed as `take-out`
+
+# Housekeeping
 
 ## Album Codes
 
 For brevity, CoTS uses the following album codes when referring to albums:
 
-- TSW - Taylor Swift (aka Debut)
+- TSW - Taylor Swift _(aka Debut)_
 - FER - Fearless
 - SPN - Speak Now
 - RED - Red
@@ -45,16 +54,22 @@ For brevity, CoTS uses the following album codes when referring to albums:
 - TPD - The Tortured Poets Society
 - OTH - Other Songs
 
-## Word Replacements
+## Song Selection
 
-The following lyric words have been replaced with WFWSE equivalents: 
+To prevent duplicate counts of lyric words, versions of songs that are pure remixes or accoustic/piano etc performances of original songs are not included in CoTS. Furthermore, versions of songs that have substantial additional lyrics have been selected in place of their original versions. Currently the two such substituted songs are:
 
-- rollercoaster = roller-coaster
-- lighthearted = light-hearted
-- nightlight = night-light
-- fairytale = fairy-tale 📘
-- namedropping = name-dropping
-- takeout = take-out
+- the '10 Minute Version' version of 'All Too Well' on the album 'Red'
+- the 'Feat. More Lana Del Rey' version of ❄'Snow On The Beach' on the album 'Midnights'
+
+## Supplemental Files
+
+The following files are provided in addition to the main CoTS file:
+
+- [lyrics/album-song-lyrics.json](lyrics/album-song-lyrics.json) - This is the raw album, song and lyric dataset used to compile CoTS.
+- [lyrics/album-song-lyrics.json](lyrics/flat-song-lyrics.json) - This is the same flat set of lyric lines that is provided in CoTS.
+- [tsv/cots-word-details.tsv](tsv/cots-word-details.tsv) - A flat version of the CoTS 'WordDetails' worksheet.
+- [tsv/cots-song-details.tsv](tsv/cots-song-details.tsv) - A flat version of the CoTS 'SongDetails' worksheet.
+- [tsv/cots-album-details.tsv](tsv/cots-album-details.tsv) - A flat version of the CoTS 'AlbumDetails' worksheet.
 
 # Corpus Parts
 
@@ -64,18 +79,18 @@ The corpus is provided in four parts, representing details and statistics of lyr
 
 ## Word Details 💬
 
-This part is the main body of the corpus and lists each lyric word along with various categorisation/statistical/labelling columns related to the word. These are detailed below.
+This part is the main body of the corpus and lists each lyric word along with various categorisation/statistical/labelling columns related to each word, as defined below.
 
 ### Word
 
-A word that appears one or more times, in one or more song lyrics. These are primarily presented in lower case, apart from in instances of proper nouns such as `Hollywood` or other ordinarily capitalised nouns such as `January`. Various tenses of the same word are grouped together in the same frequency banding/rank (eg. the words `doing`, `does`, `done`, `did` and `do` all share the same `FqBand`, `OECRank` and `CEFRLevel`).
+A word that appears one or more times, in one or more lyric lines, on one or more songs. These are primarily presented in lower case, apart from proper nouns such as `Emma`, `Hollywood` or `January`. Variations of a word or multiple tenses of the same word are grouped together in the same frequency banding/rank (eg. the words `sayin'`, `says` and `say` all share the same `FqBand`, `OECRank` and `CEFRLevel`, as do seperately the words `doing`, `does`, `done`, `did` and `do`).
 
 > [!NOTE]
-> Some proper nouns such as place names or names of individuals have been hyphenated to preserve the single word consistency when searching, eg. `New-York`, `Miss-Americana` and `Tim-McGraw`. Additionally, the word `I` is listed as `i`, for clarity.
+> Some proper nouns such as place names or names of individuals have been hyphenated to preserve single word consistency when searching, eg. `New-York`, `Miss-Americana` and `Tim-McGraw`. Additionally, the word `I` is listed as `i`, for clarity.
 
 ### PoSes _(Part of Speech)_
 
-These are the standard grammatical categorisations that are assigned to English language words. The English language is comprised of many homographic words, which are words that are spelled the same but have different meanings or origins. Consider the word `close`, which can be an adjective, adverb, noun or verb, or the word `minute` which can be an adjective, noun or verb. As such, multiple PoS categories are often assigned to each lyric word in CoTS, and are listed in order of that word's PoS WFWSE frequency. 
+These are the standard grammatical categorisations that are assigned to English language words. Multiple PoS categories are often assigned to each lyric word in CoTS, and are listed in order of that word's PoS WFWSE frequency. These multiple assigments occur due to the presence of many homographic words in English. Such words that are spelled the same but have different meanings. Consider the word `close`, which can be an adjective, adverb, noun or verb; or the word `minute` which can be an adjective, noun or verb.
 
 Standard PoS categories appear abbreviated within CoTS as follows:
 
@@ -92,7 +107,7 @@ Standard PoS categories appear abbreviated within CoTS as follows:
 - Pron - Pronoun 
 - Verb - Verb
 
-Additionally, the following three non-standard categories have been added for contracted words (eg. `doesn't`, `should've`), proper nouns (eg. `London`, `Halloween`, `Emma`) and currently unclassified words:
+Additionally, the following non-standard categories have been added for contractions (eg. `doesn't`, `should've`), proper nouns (eg. `London`, `Halloween`, `James`) and currently unclassified words:
 
 - Cont - Contraction
 - Prop - Proper Noun 
@@ -103,19 +118,19 @@ Additionally, the following three non-standard categories have been added for co
 
 ### FqBand _(Frequency Band)_
 
-This is a word frequency band that each lyric word has been assigned. It has been derived from the WFWSE word frequency and using the [Fibonacci numbers F11 to F24](https://www.math.net/list-of-fibonacci-numbers) as banding intervals, 🚩1 to 🚩16. 
+This is a word frequency band that each lyric word has been assigned. It has been derived from the WFWSE word frequency, and using the [Fibonacci numbers F11 to F24](https://www.math.net/list-of-fibonacci-numbers) as banding boundaries, values of 🚩1 to 🚩16 have been assinged. The lower the band value, the less frequently a word occurs in English, according to the WFWSE.
 
-As described in the [PoSes](https://github.com/sagesolar/Corpus-of-Taylor-Swift#poses-part-of-speeches) column, due to the homographic nature of many English language words, many lyric words are assigned multiple word frequency values. In order to present a single frequency band for each lyric word, the highest frequency value PoS of each lyric word was used when calculating a word's frequency band.
+As described in the [PoSes](https://github.com/sagesolar/Corpus-of-Taylor-Swift#poses-part-of-speeches) column, due to the homographic nature of many English language words, many lyric words are assigned multiple word frequency values. In order to present a single frequency band for each lyric word, the highest frequency value PoS of each lyric word was used when assigning a word's frequency band.
 
 > [!NOTE]
 > Around 250 lyric words have not been assigned a frequency band, as they are not present in the WFWSE list. These include contractions, proper nouns, compound words and irregular interjections.
 
 ### OECRank _(Oxford English Corpus Rank)_
 
-The top 100 OEC ranked words of the English language are labelled 1-100 in this column. CoTS utilises these ranked words in several parts such as [NextWord](https://github.com/sagesolar/Corpus-of-Taylor-Swift#nextword1-2-3), [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repetitions) and [PrevalentWords](https://github.com/sagesolar/Corpus-of-Taylor-Swift#prevalentverb--adjective--noun), and therefore these words ranks are provided in this column reference. Due to WFWSE word variants, some OEC rankings appear more than once in the column (see the [Word](https://github.com/sagesolar/Corpus-of-Taylor-Swift#word) column regarding word groupings).
+The top 100 OEC ranked words of the English language are labelled 1-100 in this column. CoTS utilises these ranked words in several columns, such as [NextWord](https://github.com/sagesolar/Corpus-of-Taylor-Swift#nextword1-2-3), [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repetitions) and [PrevalentWords](https://github.com/sagesolar/Corpus-of-Taylor-Swift#prevalentverb--adjective--noun). Therefore these words ranks are provided in this column for reference. Due to WFWSE word variants, some OEC rankings appear more than once in the column (see the [Word](https://github.com/sagesolar/Corpus-of-Taylor-Swift#word) column regarding word variant/tense groupings).
 
 > [!NOTE]
-> Unlike the WFWSE, the OEC categorises the words `a` and `an` separately, so for the purposes of the OEC rank they are treated as separate words, with ranks of `6` and `32` respectively. This is the only instance that this denormalization occurs.
+> Unlike the WFWSE, the OEC categorises the words `a` and `an` separately, so for the purposes of the OEC rank they are treated as separate words, with ranks of `6` and `32` respectively. This is the only instance that such denormalization occurs.
 
 ### CEFRLevel _(Common European Framework of Reference for Languages Level)_
 
@@ -127,7 +142,7 @@ The 5000 most important words of the English language, as defined by the Oxford 
 - B2
 - C1
  
-From research, it is not fully clear how to categorise words not included in this list. However, they can be interpreted as less important than those words within the list, or more difficult to learn or both.
+The Oxford 5000 CEFR list does not include C2 categorised words, however they can be interpreted as less important than those words within the list, or more difficult to learn or both.
 
 ### NextWord[1-2-3]
 
@@ -310,15 +325,3 @@ This is the total count of words on an album.
 This part of CoTS provides a flat set of all lyric lines in each song included in the dataset. Each lyric is labelled with `Album code`:`Track number`:`Lyric line number` as shown in the following example:
 
 `FOL:03:036` - _I had a marvelous time ruining everything_ 🥂
-
-![CoTS word cloud](img/eras-colours-divider.png)
-
-# Supplemental Files 📜
-
-The following files are provided in addition to the main CoTS file:
-
-- [lyrics/album-song-lyrics.json](lyrics/album-song-lyrics.json) - This is the raw album, song and lyric dataset used to compile CoTS.
-- [lyrics/album-song-lyrics.json](lyrics/flat-song-lyrics.json) - This is the same flat set of lyric lines that is provided in CoTS.
-- [tsv/cots-word-details.tsv](tsv/cots-word-details.tsv) - The CoTS 'WordDetails' worksheet provided in TSV format.
-- [tsv/cots-song-details.tsv](tsv/cots-song-details.tsv) - The CoTS 'SongDetails' worksheet provided in TSV format.
-- [tsv/cots-album-details.tsv](tsv/cots-album-details.tsv) - The CoTS 'AlbumDetails' worksheet provided in TSV format.
