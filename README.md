@@ -36,7 +36,7 @@ For brevity, CoTS uses the following album codes when referring to albums:
 - RED - Red
 - NEN - 1989
 - REP - Reputation
-- LVR - Lover
+- LVR - Lover 💌
 - FOL - Folklore
 - EVE - Evermore 
 - MID - Midnights
@@ -50,7 +50,7 @@ The following lyric words have been replaced with WFWSE equivalents:
 - rollercoaster = roller-coaster
 - lighthearted = light-hearted
 - nightlight = night-light
-- fairytale = fairy-tale
+- fairytale = fairy-tale 📘
 - namedropping = name-dropping
 - takeout = take-out
 
@@ -58,7 +58,7 @@ The following lyric words have been replaced with WFWSE equivalents:
 
 The corpus is provided in four parts, representing details and statistics of lyric words, songs, albums and lyrics. Details of the columns that comprise each of these parts are provided below.
 
-## Word Details
+## Word Details 🖋
 
 This part is the main body of the corpus and lists each lyric word along with various categorisation/statistical/labelling columns related to the word. These are detailed below:
 
@@ -141,7 +141,7 @@ In an effort to increase the interest of these 'next' word lists, and to not inu
 <summary>Lyric examples</summary>
 Consider the following lyrics:
 
-1. >_In a storm, in my best dress, fearless_
+1. >_In a storm, in my best dress, fearless_ 👗
 2. >_And people would say, "They're the lucky ones"_
 3. >_'Cause look at your face (Look at your face; Gorgeous)_
 4. >_Trouble, trouble, trouble (Oh)_
@@ -171,7 +171,7 @@ Consider the following lyrics:
 2. >_Twenty-two (Oh, oh, oh, oh, oh)_
 3. >_That's how you get the girl, girl, yeah, yeah_
 4. >_I, I-I-I, I, I, I wish, I wish, I_
-5. >_In a getaway car (Oh-oh-oh)_
+5. >_In a getaway car (Oh-oh-oh)_ 🚗
 6. >_Ra-di-di-di-di-di-di-di-di-di-da-da_
 
 In the first three examples, the word `good` would be counted twice, the word `oh` is counted five times, the word `girl` would be counted twice and similar for the word `yeah`.
@@ -223,7 +223,7 @@ For example, the lyric word `kid` has the `SongOccurrences` values:
 
 This is interpreted as the word `kid` occurring 3 times on track 16 of the album 'Red', once on track 30 of the album 'Red', twice on track 10 of the album 'Folklore', and so on.
 
-## Song Details
+## Song Details 🎶
 
 This part of CoTS provides summary details and statistics for each song that is included in the dataset.
 
@@ -268,7 +268,7 @@ This is the total count of words in a song.
 
 The [genius.com](https://genius.com/artists/Taylor-swift) link corresponding to a song.
 
-## Album Details
+## Album Details 💿
 
 This part of CoTS provides summary details and statistics for each album that is included in the dataset.
 
@@ -299,9 +299,9 @@ This is the total count of words on an album.
 
 This part of CoTS provides a flat set of all lyric lines in each song included in the dataset. Each lyric is labelled with `Album code`:`Track number`:`Lyric line number` as shown in the following example:
 
-`FOL:03:036` - _I had a marvelous time ruining everything_
+`FOL:03:036` - _I had a marvelous time ruining everything_ 🥂
 
-## Additional Files
+## Additional Files 📜
 - [lyrics/album-song-lyrics.json](lyrics/album-song-lyrics.json) - This is the raw album, song and lyric dataset used to compile CoTS.
 - [lyrics/album-song-lyrics.json](lyrics/flat-song-lyrics.json) - This is the same flat set of lyric lines that is provided in CoTS.
 - [tsv/cots-word-details.tsv](tsv/cots-word-details.tsv) - The CoTS 'WordDetails' worksheet provided in TSV format.
