@@ -327,6 +327,15 @@ This is the total count of words on an album.
 
 ## Lyrics 🎙
 
-This part of CoTS provides a flat set of all lyric lines in each song included in the dataset. Each lyric is labelled with `Album code` : `Track number` : `Lyric line number` as shown in the following example:
+This part of CoTS provides a flat set of all lyric lines in each song included in the dataset. Each lyric is labelled with `Album Code` : `Track Number` : `Lyric Line Number` as shown in the following examples:
 
-`FOL:03:036` - _I had a marvelous time ruining everything_ 🥂
+- `TSW:03:013` - _He's the reason for the teardrops on my guitar_
+- `FER:01:017`	- _In a storm, in my best dress, fearless_
+- `SPN:09:019`	- _I was enchanted to meet you_
+- `RED:30:074`	- _I remember it all too well_
+- `NEN:14:015`	- _We found Wonderland, you and I got lost in it_
+- `REP:03:046`	- _They're burning all the witches, even if you aren't one_
+- `LVR:14:009`	- _And snakes and stones never broke my bones_
+- `FOL:03:036` - _I had a marvelous time ruining everything_ 🥂
+- `EVE:02:001`	- _You booked the night train for a reason_
+- `MID:02:039`	- _The rust that grew between telephones_
