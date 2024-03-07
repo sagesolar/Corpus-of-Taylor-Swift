@@ -4,7 +4,9 @@
 
 # Introduction
 
-This is a dataset consisting of all song lyric words found on all of Taylor Swift's studio albums, as well as a selection of other songs written by her. CoTS is generated using 'Taylor's Version' album lyrics where available, and includes all bonus tracks or 'from the vault' songs. There is intent to keep this dataset updated as new material is released in future.
+This is a dataset consisting of all song lyric words found on all of Taylor Swift's studio albums, as well as a selection of other songs written by her. Each unique lyric word is assigned various categorisations and statistics by CoTS, that can be used to understand how and where each word is used in one or more lyrics. 
+
+CoTS is generated using 'Taylor's Version' album lyrics where available, and includes all bonus tracks or 'from the vault' songs. There is intent to keep this dataset updated as new material is released in future.
 
 Happy browsing and friendship bracelet making! 🐈
 
