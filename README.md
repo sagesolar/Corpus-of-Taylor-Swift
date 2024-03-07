@@ -286,7 +286,7 @@ This is the total count of lyric lines in a song.
 
 ### Verses / Bridges / Choruses / Refrains / InOuts _(Intros/Outros)_
 
-This is the total count of various song structure parts in a song (if any). For brevity, some similar song structure parts have been grouped together as detailed in the related [Word Details part](https://github.com/sagesolar/Corpus-of-Taylor-Swift#verse--bridge--chorus--refrain--inout-introoutro).
+This is the total count of lyric lines that occur in various song structure parts of a song (if any). For brevity, some similar song structure parts have been grouped together as detailed in the related [Word Details part](https://github.com/sagesolar/Corpus-of-Taylor-Swift#verse--bridge--chorus--refrain--inout-introoutro).
 
 ### Words
 
