@@ -339,3 +339,6 @@ This part of CoTS provides a flat set of all lyric lines in each song included i
 - `FOL:03:036` - _I had a marvelous time ruining everything_ 🥂
 - `EVE:02:001`	- _You booked the night train for a reason_
 - `MID:02:039`	- _The rust that grew between telephones_
+
+> [!NOTE]
+> Three digits are included in the `Lyric Line Number` part of lyric labels, as the '10 Minute Version' of the song 'All Too Well' has 109 lyric lines!
