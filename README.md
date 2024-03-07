@@ -170,7 +170,7 @@ Consider the following lyrics:
 3. >_'Cause look at your face (Look at your face; Gorgeous)_
 4. >_Trouble, trouble, trouble (Oh)_
 
-In the first example, the words `In`, `storm` and `in` have no 'next' word, as their respective following words `a` and `in` and `my` are in the OEC top 50 words. Conversely the words `a`, `my`, `best` and `dress`  have respective 'next' words of `storm`, `best`, `dress` and `fearless`. The word `fearless` has no 'next' word as it occurs at the end of the lyric line.
+In the first example, the words `In`, `storm` and `in` have no 'next' word, as their respective following words `a`, `in` and `my` are in the OEC top 50 words. Conversely the words `a`, `my`, `best` and `dress`  have respective 'next' words of `storm`, `best`, `dress` and `fearless`. The word `fearless` has no 'next' word as it occurs at the end of the lyric line.
 
 These rules continue in the second example and on, including the word `say` which has a 'next' word of `They're`, regardless of it's preceding double quote character.
 
