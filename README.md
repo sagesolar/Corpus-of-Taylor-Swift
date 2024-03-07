@@ -20,11 +20,11 @@ CoTS also utilises the [Oxford English Corpus (OEC) top 100 most frequent words]
 
 To ensure as complete lyric word categorisation as possible, the following have been added to WFWSE word variants, as applicable:
 
-- American word spellings, eg. `marvelous`
-- common acronyms, eg. `TV` or `FBI` 
-- simple contractions, eg. `havin'` or `playin'`
-- possessive nouns, eg. `friend's` or `parents'`
-- numeric forms of numbers, eg. `13`🐍
+- American word spellings, eg. `marvelous` added as a variant of `marvellous`
+- common acronyms, eg. `TV` or `PJs` added as variants of `television` and `pyjama` respectively
+- simple contractions, eg. `havin'` or `playin'` added as variants of `having` and `playing` respectively
+- possessive nouns, eg. `friend's` or `parents'` added as variants of `friend` and `parent` respectively
+- numeric forms of numbers, eg. `13`🐍 added as a variant of `thirteen`
 
 Moreover, the following lyric words have been replaced with WFWSE equivalents: 
 
@@ -51,8 +51,11 @@ For brevity, CoTS uses the following album codes when referring to albums:
 - FOL - Folklore
 - EVE - Evermore 
 - MID - Midnights
-- TPD - The Tortured Poets Society
+- TPD - The Tortured Poets Department
 - OTH - Other Songs
+
+> [!NOTE]
+> Although listed here for future purposes, CoTS does not include any song lyrics from the 'The Tortured Poets Department' album.
 
 ## Song Selection
 
