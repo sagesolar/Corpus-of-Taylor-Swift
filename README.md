@@ -106,7 +106,7 @@ Standard PoS categories appear abbreviated within CoTS as follows:
 - Dete - Determiner
 - Inte - Interjection
 - Infi - Infinitive Marker
-- Noun - Noun
+- Noun - Noun 🌈
 - Numb - Number
 - Prep - Preposition
 - Pron - Pronoun 
