@@ -24,7 +24,7 @@ To ensure as complete lyric word categorisation as possible, the following have 
 
 - American word spellings, eg. `marvelous` added as a variant of `marvellous`
 - common acronyms, eg. `TV` or `PJs` added as variants of `television` and `pyjama` respectively
-- simple contractions, eg. `havin'` or `playin'` added as variants of `having` and `playing` respectively
+- simple contractions, eg. `'cause` or `playin'` added as variants of `because` and `playing` respectively
 - possessive nouns, eg. `friend's` or `parents'` added as variants of `friend` and `parent` respectively
 - numeric forms of numbers, eg. `13`🐍 added as a variant of `thirteen`
 
