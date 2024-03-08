@@ -112,7 +112,7 @@ Standard PoS categories appear abbreviated within CoTS as follows:
 - Pron - Pronoun 
 - Verb - Verb
 
-Additionally, the following non-standard categories have been added for contractions (eg. `doesn't`, `should've`), proper nouns (eg. `London`, `Halloween`, `James`) and currently unclassified words:
+Additionally, the following non-standard categories have been added for contractions (eg. `doesn't`, `should've`, `wanna`), proper nouns (eg. `London`, `Halloween`, `James`) and currently unclassified words:
 
 - Cont - Contraction
 - Prop - Proper Noun 
