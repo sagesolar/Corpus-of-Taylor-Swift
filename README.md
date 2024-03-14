@@ -123,7 +123,7 @@ Additionally, the following non-standard categories have been added for contract
 
 ### FqBand _(Frequency Band)_
 
-This is a word frequency band that each lyric word has been assigned. It has been derived from the WFWSE word frequency, and using the [Fibonacci numbers F11 to F24](https://www.math.net/list-of-fibonacci-numbers) as banding boundaries, values of `🚩1` to `🚩16` have been assigned. The lower the band value, the less frequently a word occurs in English, according to the WFWSE.
+This is a word frequency band that each lyric word has been assigned. It has been derived from the WFWSE word frequency, and using the [Fibonacci numbers F11 to F24](https://www.math.net/list-of-fibonacci-numbers) as banding boundaries, values of `🚩1` to `🚩16` have been assigned. The higher the band value, the less frequently a word occurs in English, according to the WFWSE.
 
 As described in the [PoSes](https://github.com/sagesolar/Corpus-of-Taylor-Swift#poses-part-of-speech) column, due to the homographic nature of many English language words, many lyric words are assigned multiple word frequency values. In order to present a single frequency band for each lyric word, the highest frequency value PoS of each lyric word was used when assigning a word's frequency band.
 
