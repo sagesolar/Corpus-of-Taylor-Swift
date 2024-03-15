@@ -223,7 +223,7 @@ These columns hold the total count of instances of a lyric word in various song 
 
 ### AlbumCount
 
-This is the total count of albums that a lyric word occurs at least once on.
+This is the total count of albums that a lyric word occurs at least once on. A count of one in this column signifies that the related lyric word is unique to the album.
 
 ### SongCount
 
