@@ -86,7 +86,7 @@ RED	25	Message In A Bottle		Yes	wonderin'	love	reachin'	standin'	47	8	5	30	0	4	3
 RED	26	I Bet You Think About Me	Chris Stapleton	Yes	upper-crust	bet	fine	city	49	20	6	16	0	7	419	https://genius.com/Taylor-swift-i-bet-you-think-about-me-taylors-version-from-the-vault-lyrics
 RED	27	Forever Winter		Yes	pacin'	fall	young	pieces	50	8	4	36	0	2	354	https://genius.com/Taylor-swift-forever-winter-taylors-version-from-the-vault-lyrics
 RED	28	Run	Ed Sheeran	Yes	locket	run	so-called	law	53	11	5	36	0	1	348	https://genius.com/Taylor-swift-run-taylors-version-from-the-vault-lyrics
-RED	29	The Very First Night		Yes	broken-hearted	miss	broke	night	55	16	7	32	0	0	401	https://genius.com/Taylor-swift-the-very-first-night-taylors-version-from-the-vault-lyrics
+RED	29	The Very First Night		Yes	broken-hearted	miss	broke	night	55	16	7	32	0	0	400	https://genius.com/Taylor-swift-the-very-first-night-taylors-version-from-the-vault-lyrics
 RED	30	All Too Well (10 Minute Version)		Yes	crumpled-up	remember	rare	wind	109	52	8	30	0	19	968	https://genius.com/Taylor-swift-all-too-well-10-minute-version-taylors-version-from-the-vault-lyrics
 NEN	1	Welcome To New York		No	guessing	welcome	bright	waitin'	41	10	4	27	0	0	316	https://genius.com/Taylor-swift-welcome-to-new-york-taylors-version-lyrics
 NEN	2	Blank Space		No	worst	tell	insane	list	82	30	4	48	0	0	518	https://genius.com/Taylor-swift-blank-space-taylors-version-lyrics
@@ -180,7 +180,7 @@ EVE	17	It's Time To Go		No	worse	find	old	thing	53	20	0	25	0	8	377	https://geniu
 MID	1	Lavender Haze		No	bringing	stay	surreal	lavender	50	8	8	28	0	6	301	https://genius.com/Taylor-swift-lavender-haze-lyrics
 MID	2	Maroon		No	screw-top	mark	maroon	t-shirt	55	17	4	32	0	2	348	https://genius.com/Taylor-swift-maroon-lyrics
 MID	3	Anti-Hero		No	lurching	agrees	exhausting	problem	48	8	10	30	0	0	333	https://genius.com/Taylor-swift-anti-hero-lyrics
-MID	5	"You'Re On Your Own, Kid"		No	picked	splashes	best	kid	43	15	12	16	0	0	296	https://genius.com/Taylor-swift-youre-on-your-own-kid-lyrics
+MID	5	"You're On Your Own, Kid"		No	picked	splashes	best	kid	43	15	12	16	0	0	296	https://genius.com/Taylor-swift-youre-on-your-own-kid-lyrics
 MID	6	Midnight Rain		No	chasing	stayed	comfortable	midnight	44	18	0	12	0	14	283	https://genius.com/Taylor-swift-midnight-rain-lyrics
 MID	7	Question...?		No	dickhead	wish	crowded	question	58	22	5	30	0	1	432	https://genius.com/Taylor-swift-question-lyrics
 MID	8	Vigilante Shit		No	worst	dress	sad	revenge	38	19	4	15	0	0	259	https://genius.com/Taylor-swift-vigilante-shit-lyrics
@@ -198,5 +198,36 @@ MID	19	"Would've, Could've, Should've"		No	wondering	regret	close	devil	76	20	10
 MID	20	Dear Reader		No	spilling	find	dear	reader	38	16	11	4	0	7	266	https://genius.com/Taylor-swift-dear-reader-lyrics
 MID	21	Hits Different		No	held	hits	different	shit	68	22	13	26	0	7	458	https://genius.com/Taylor-swift-hits-different-lyrics
 MID	22	Snow On The Beach (Feat. More Lana Del Rey)	Lana Del Rey	No	pocketful	feels	flying	snow	61	16	5	38	0	2	357	https://genius.com/Taylor-swift-snow-on-the-beach-feat-more-lana-del-rey-lyrics
+TPD	1	Fortnight	Post Malone	No	touched	love	touched	fortnight	42	14	8	12	0	8	319	https://genius.com/Taylor-swift-fortnight-lyrics
+TPD	2	The Tortured Poets Department		No	undone	hold	left	idiots	66	16	9	38	0	3	398	https://genius.com/Taylor-swift-the-tortured-poets-department-lyrics
+TPD	3	My Boy Only Breaks His Favorite Toys		No	sandlot	breaks	favorite	boy	39	13	4	12	0	10	276	https://genius.com/Taylor-swift-my-boy-only-breaks-his-favorite-toys-lyrics
+TPD	4	Down Bad		No	petulance	fuck	bad	cryin'	65	12	11	38	0	4	472	https://genius.com/Taylor-swift-down-bad-lyrics
+TPD	5	"So Long, London"		No	sacrificed	find	stopped	graves	51	17	8	23	0	3	374	https://genius.com/Taylor-swift-so-long-london-lyrics
+TPD	6	But Daddy I Love Him		No	tucked	should	wild	faces	81	22	11	41	0	7	564	https://genius.com/Taylor-swift-but-daddy-i-love-him-lyrics
+TPD	7	Fresh Out The Slammer		No	handcuffed	runnin'	fresh	baby	34	8	6	16	0	4	273	https://genius.com/Taylor-swift-fresh-out-the-slammer-lyrics
+TPD	8	Florida!!!	Florence + The Machine	No	barricaded	fuck	little	hell	60	16	12	32	0	0	424	https://genius.com/Taylor-swift-florida-lyrics
+TPD	9	Guilty As Sin?		No	recalling	slip	written	thigh	51	20	6	22	0	3	350	https://genius.com/Taylor-swift-guilty-as-sin-lyrics
+TPD	10	Who’s Afraid Of Little Old Me?		No	grazed	should	afraid	gallows	56	7	12	32	0	5	442	https://genius.com/Taylor-swift-whos-afraid-of-little-old-me-lyrics
+TPD	11	I Can Fix Him (No Really I Can)		No	six-lane	told	small	man	31	12	4	15	0	0	235	https://genius.com/Taylor-swift-i-can-fix-him-no-really-i-can-lyrics
+TPD	12	?Loml		No	engulfed	love	legendary	life	54	16	12	26	0	0	360	https://genius.com/Taylor-swift-loml-lyrics
+TPD	13	I Can Do It With A Broken Heart		No	chanting	avoids	broken	heart	52	12	0	34	0	6	391	https://genius.com/Taylor-swift-i-can-do-it-with-a-broken-heart-lyrics
+TPD	14	The Smallest Man Who Ever Lived		No	stabbed	lived	smallest	man	41	16	13	8	0	4	310	https://genius.com/Taylor-swift-the-smallest-man-who-ever-lived-lyrics
+TPD	15	The Alchemy		No	circled	fight	reserved	sign	52	13	4	33	0	2	360	https://genius.com/Taylor-swift-the-alchemy-lyrics
+TPD	16	Clara Bow		No	picked	die	dazzling	town	39	8	6	21	0	4	245	https://genius.com/Taylor-swift-clara-bow-lyrics
+TPD	17	The Black Dog		No	pledged	die	screaming	habits	45	16	9	18	0	2	290	https://genius.com/Taylor-swift-the-black-dog-lyrics
+TPD	18	Imgonnagetyouback		No	handcuffed	tell	decided	wife	52	13	8	29	0	2	408	https://genius.com/Taylor-swift-imgonnagetyouback-lyrics
+TPD	19	The Albatross		No	swept	warn	thoughtless	heart	47	19	4	21	0	3	245	https://genius.com/Taylor-swift-the-albatross-lyrics
+TPD	20	Chloe Or Sam Or Sophia Or Marcus		No	watching	happen	cold	heart	43	24	4	12	0	3	315	https://genius.com/Taylor-swift-chloe-or-sam-or-sophia-or-marcus-lyrics
+TPD	21	How Did It End?		No	reeling	descends	empathetic	end	40	11	8	20	0	1	227	https://genius.com/Taylor-swift-how-did-it-end-lyrics
+TPD	22	So High School		No	entwined	feel	high	school	55	9	8	27	0	11	380	https://genius.com/Taylor-swift-so-high-school-lyrics
+TPD	23	I Hate It Here		No	debutante	hate	quick	mind	45	18	7	18	0	2	404	https://genius.com/Taylor-swift-i-hate-it-here-lyrics
+TPD	24	Thank You Aimee		No	pushed	throwin'	searing	head	44	14	4	24	0	2	410	https://genius.com/Taylor-swift-thank-you-aimee-lyrics
+TPD	25	I Look In People’s Windows		No	carried	met	downtown	south	30	12	0	18	0	0	179	https://genius.com/Taylor-swift-i-look-in-peoples-windows-lyrics
+TPD	26	The Prophecy		No	sorceress'	change	greater	prophecy	65	16	16	26	0	7	354	https://genius.com/Taylor-swift-the-prophecy-lyrics
+TPD	27	Cassandra		No	worst	heard	quiet	town	49	11	17	16	0	5	363	https://genius.com/Taylor-swift-cassandra-lyrics
+TPD	28	Peter		No	stealer	grow	lost	words	71	20	12	39	0	0	439	https://genius.com/Taylor-swift-peter-lyrics
+TPD	29	The Bolter		No	nicknamed	must	speeding	meeting	73	23	8	42	0	0	408	https://genius.com/Taylor-swift-the-bolter-lyrics
+TPD	30	Robin		No	slowed-down	May	higher	tiger	37	9	8	20	0	0	178	https://genius.com/Taylor-swift-robin-lyrics
+TPD	31	The Manuscript		No	passed	rereads	entire	manuscript	37	24	13	0	0	0	239	https://genius.com/Taylor-swift-the-manuscript-lyrics
 OTH	1	Carolina		No	lonesome	leave	lonesome	dreams	37	12	4	16	0	5	233	https://genius.com/Taylor-swift-carolina-lyrics
 OTH	2	Only The Young		No	wondering	run	young	matter	48	14	0	31	0	3	297	https://genius.com/Taylor-swift-only-the-young-lyrics
