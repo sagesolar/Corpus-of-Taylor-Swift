@@ -1,4 +1,4 @@
-# Corpus of Taylor Swift _(CoTS)_
+![image](https://github.com/sagesolar/Corpus-of-Taylor-Swift/assets/19207995/74df05c6-bd8e-402a-ac73-7b8e869c8bda)# Corpus of Taylor Swift _(CoTS)_
 
 ![CoTS word cloud](img/eras-colours-divider.png)
 
@@ -57,7 +57,7 @@ For brevity, CoTS uses the following album codes when referring to albums:
 - OTH - Other Songs
 
 > [!NOTE]
-> Although listed here for future purposes, CoTS does not include any song lyrics from the 'The Tortured Poets Department' album.
+> CoTS now includes all song lyrics from the 'The Tortured Poets Department' album.
 
 ## Song Selection
 
@@ -341,6 +341,7 @@ This part of CoTS provides a flat set of all lyric lines in each song included i
 - `FOL:03:036` - _I had a marvelous time ruining everything_ 🥂
 - `EVE:02:001`	- _You booked the night train for a reason_
 - `MID:02:039`	- _The rust that grew between telephones_
+- `TPD:06:044`	- _I don't cater to all these vipers dressed in empath's clothing_
 
 > [!NOTE]
 > Three digits are included in the `Lyric Line Number` part of lyric labels, as the '10 Minute Version' of the song 'All Too Well' has 109 lyric lines!
