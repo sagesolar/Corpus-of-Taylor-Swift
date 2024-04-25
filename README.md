@@ -1,4 +1,4 @@
-![image](https://github.com/sagesolar/Corpus-of-Taylor-Swift/assets/19207995/74df05c6-bd8e-402a-ac73-7b8e869c8bda)# Corpus of Taylor Swift _(CoTS)_
+# Corpus of Taylor Swift _(CoTS)_
 
 ![CoTS word cloud](img/eras-colours-divider.png)
 
