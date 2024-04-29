@@ -331,7 +331,7 @@ This is the total count of words on an album.
 
 This part of CoTS provides a flat set of all lyric lines in each song included in the dataset. Each lyric is labelled with `Album Code` : `Track Number` : `Lyric Line Number` as shown in the following examples:
 
-- `TSW:03:013` - _He's the reason for the teardrops on my guitar_
+- `TSW:03:013` - _He's the reason for the teardrops on my guitar_ 🎸
 - `FER:01:017`	- _In a storm, in my best dress, fearless_
 - `SPN:09:019`	- _I was enchanted to meet you_
 - `RED:30:074`	- _I remember it all too well_
@@ -341,7 +341,7 @@ This part of CoTS provides a flat set of all lyric lines in each song included i
 - `FOL:03:036` - _I had a marvelous time ruining everything_ 🥂
 - `EVE:02:001`	- _You booked the night train for a reason_
 - `MID:02:039`	- _The rust that grew between telephones_
-- `TPD:06:044`	- _I don't cater to all these vipers dressed in empath's clothing_
+- `TPD:18:042`	- _Pick your poison, babe, I'm poison either way_
 
 > [!NOTE]
 > Three digits are included in the `Lyric Line Number` part of lyric labels, as the '10 Minute Version' of the song 'All Too Well' has 109 lyric lines!
