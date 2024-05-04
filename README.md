@@ -215,11 +215,11 @@ This is the total count of instances of a lyric word across all songs and albums
 
 These columns hold the total count of instances of a lyric word in various song structure parts across all songs and albums (if any). For brevity, some similar song structure parts have been grouped together as follows:
 
-- Bridge - also includes breaks, breakdowns, buildups and interludes
-- Chorus - also includes pre-choruses and post-choruses
-- InOut - includes intros, outros, and spoken outros
-- Refrain - no other inclusions
-- Verse - no other inclusions
+- Bridge (B) - also includes breaks, breakdowns, buildups and interludes
+- Chorus (C) - also includes pre-choruses and post-choruses
+- InOut (I) - includes intros, outros, and spoken outros
+- Refrain (R) - no other inclusions
+- Verse (V) - no other inclusions
 
 ### AlbumCount
 
@@ -321,6 +321,10 @@ These columns list the most common verb, adjective and noun that occur on an alb
 
 This is the total count of songs that are on an album.
 
+### Lines
+
+This is the total count of lyric lines on an album.
+
 ### Words
 
 This is the total count of words on an album.
@@ -329,19 +333,21 @@ This is the total count of words on an album.
 
 ## Lyrics 🎙
 
-This part of CoTS provides a flat set of all lyric lines in each song included in the dataset. Each lyric is labelled with `Album Code` : `Track Number` : `Lyric Line Number` as shown in the following examples:
+This part of CoTS provides a flat set of all lyric lines in each song included in the dataset. Each lyric is labelled with `Album Code` : `Track Number` : `Lyric Line Number` : `Song Structure Part` as shown in the following examples:
 
-- `TSW:03:013` - _He's the reason for the teardrops on my guitar_ 🎸
-- `FER:01:017`	- _In a storm, in my best dress, fearless_
-- `SPN:09:019`	- _I was enchanted to meet you_
-- `RED:30:074`	- _I remember it all too well_
-- `NEN:14:015`	- _We found Wonderland, you and I got lost in it_
-- `REP:03:046`	- _They're burning all the witches, even if you aren't one_
-- `LVR:14:009`	- _And snakes and stones never broke my bones_
-- `FOL:03:036` - _I had a marvelous time ruining everything_ 🥂
-- `EVE:02:001`	- _You booked the night train for a reason_
-- `MID:02:039`	- _The rust that grew between telephones_
-- `TPD:18:042`	- _Pick your poison, babe, I'm poison either way_
+- `TSW:03:013:C` - _He's the reason for the teardrops on my guitar_ 🎸
+- `FER:01:017:C`	- _In a storm, in my best dress, fearless_
+- `SPN:09:019:C`	- _I was enchanted to meet you_
+- `RED:30:090:V`	- _I remember it all too well_
+- `NEN:14:015:C`	- _We found Wonderland, you and I got lost in it_
+- `REP:03:044:B`	- _They're burning all the witches, even if you aren't one_
+- `LVR:14:009:C`	- _And snakes and stones never broke my bones_
+- `FOL:03:037:I` - _I had a marvelous time ruining everything_ 🥂
+- `EVE:02:001:V`	- _You booked the night train for a reason_
+- `MID:02:039:C`	- _The rust that grew between telephones_
+- `TPD:18:042:B`	- _Pick your poison, babe, I'm poison either way_
+
+See the [Word Details part](https://github.com/sagesolar/Corpus-of-Taylor-Swift#verse--bridge--chorus--refrain--inout-introoutro) for song structure part details.
 
 > [!NOTE]
 > Three digits are included in the `Lyric Line Number` part of lyric labels, as the '10 Minute Version' of the song 'All Too Well' has 109 lyric lines!
