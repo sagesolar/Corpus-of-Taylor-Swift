@@ -333,7 +333,8 @@ This is the total count of words on an album.
 
 ## Lyrics 🎙
 
-This part of CoTS provides a flat set of all lyric lines in each song included in the dataset. Each lyric is labelled with `Album Code` : `Track Number` : `Lyric Line Number` : `Song Structure Part` as shown in the following examples:
+This part of CoTS provides a flat set of all lyric lines in each song included in the dataset. Each lyric is labelled with
+`Album Code` : `Track Number` : `Lyric Line Number` : `Song Structure Part` as shown in the following examples:
 
 - `TSW:03:013:C` - _He's the reason for the teardrops on my guitar_ 🎸
 - `FER:01:017:C`	- _In a storm, in my best dress, fearless_
