@@ -319,7 +319,7 @@ These columns list the most common verb, adjective and noun that occur on an alb
 
 ### Songs
 
-This is the total count of songs that are on an album.
+This is the total count of songs on an album.
 
 ### Lines
 
