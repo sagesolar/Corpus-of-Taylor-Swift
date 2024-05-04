@@ -43,18 +43,18 @@ Moreover, the following lyric words have been replaced with WFWSE equivalents:
 
 For brevity, CoTS uses the following album codes when referring to albums:
 
-- TSW - Taylor Swift _(aka Debut)_
-- FER - Fearless
-- SPN - Speak Now
-- RED - Red
-- NEN - 1989
-- REP - Reputation
-- LVR - Lover 💌
-- FOL - Folklore
-- EVE - Evermore 
-- MID - Midnights
-- TPD - The Tortured Poets Department
-- OTH - Other Songs
+- `TSW` - Taylor Swift _(aka Debut)_
+- `FER` - Fearless
+- `SPN` - Speak Now
+- `RED` - Red
+- `NEN` - 1989
+- `REP` - Reputation
+- `LVR` - Lover 💌
+- `FOL` - Folklore
+- `EVE` - Evermore 
+- `MID` - Midnights
+- `TPD` - The Tortured Poets Department
+- `OTH` - Other Songs
 
 > [!NOTE]
 > CoTS now includes all song lyrics from the 'The Tortured Poets Department' album.
