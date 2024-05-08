@@ -99,24 +99,24 @@ These are the standard grammatical categorisations that are assigned to English 
 
 Standard PoS categories appear abbreviated within CoTS as follows:
 
-- Adje - Adjective
-- Adve - Adverb
-- Arti - Article
-- Conj - Conjunction
-- Dete - Determiner
-- Inte - Interjection
-- Infi - Infinitive Marker
-- Noun - Noun 🌈
-- Numb - Number
-- Prep - Preposition
-- Pron - Pronoun 
-- Verb - Verb
+- `Adje` - Adjective
+- `Adve` - Adverb
+- `Arti` - Article
+- `Conj` - Conjunction
+- `Dete` - Determiner
+- `Inte` - Interjection
+- `Infi` - Infinitive Marker
+- `Noun` - Noun 🌈
+- `Numb` - Number
+- `Prep` - Preposition
+- `Pron` - Pronoun 
+- `Verb` - Verb
 
 Additionally, the following non-standard categories have been added for contractions (eg. `doesn't`, `should've`, `wanna`), proper nouns (eg. `London`, `Halloween`, `James`) and currently unclassified words:
 
-- Cont - Contraction
-- Prop - Proper Noun 
-- Uncl - Unclassified
+- `Cont` - Contraction
+- `Prop` - Proper Noun 
+- `Uncl` - Unclassified
 
 > [!NOTE]
 > A small number of compound words, irregular interjections, non-words etc. (eg. `wine-stained`, `ooh-hoo-hoo`, `3AM`) are currently marked as `Uncl`. These may be classified in future versions of CoTS.
@@ -141,11 +141,11 @@ The top 100 OEC ranked words of the English language are labelled 1-100 in this 
 
 The 5000 most important words of the English language, as defined by the Oxford 5000 CEFR list, are provided in this column. They are categorised into the following bands in order of word simplicity when learning a language:
 
-- A1
-- A2
-- B1
-- B2
-- C1
+- `A1`
+- `A2`
+- `B1`
+- `B2`
+- `C1`
  
 The Oxford 5000 CEFR list does not include 'C2' categorised words, however non-categorised words in this column can be interpreted as less important than words within the list, or more difficult to learn or both.
 
@@ -215,11 +215,11 @@ This is the total count of instances of a lyric word across all songs and albums
 
 These columns hold the total count of instances of a lyric word in various song structure parts across all songs and albums (if any). For brevity, some similar song structure parts have been grouped together as follows:
 
-- Bridge (B) - also includes breaks, breakdowns, buildups and interludes
-- Chorus (C) - also includes pre-choruses and post-choruses
-- InOut (I) - includes intros, outros, and spoken outros
-- Refrain (R) - no other inclusions
-- Verse (V) - no other inclusions
+- Bridge (`B`) - also includes breaks, breakdowns, buildups and interludes
+- Chorus (`C`) - also includes pre-choruses and post-choruses
+- InOut (`I`) - includes intros, outros, and spoken outros
+- Refrain (`R`) - no other inclusions
+- Verse (`V`) - no other inclusions
 
 ### AlbumCount
 
@@ -341,7 +341,7 @@ Each lyric is labelled with `Album Code` : `Track Number` : `Lyric Line Number` 
 - `SPN:09:019:C`	- _I was enchanted to meet you_
 - `RED:30:090:V`	- _I remember it all too well_
 - `NEN:14:015:C`	- _We found Wonderland, you and I got lost in it_
-- `REP:03:044:B`	- _They're burning all the witches, even if you aren't one_
+- `REP:01:036:R` - _Baby, let the games begin_ 🎲
 - `LVR:14:009:C`	- _And snakes and stones never broke my bones_
 - `FOL:03:037:I` - _I had a marvelous time ruining everything_ 🥂
 - `EVE:02:001:V`	- _You booked the night train for a reason_
