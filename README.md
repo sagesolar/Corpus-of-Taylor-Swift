@@ -353,4 +353,4 @@ See the [Word Details part](https://github.com/sagesolar/Corpus-of-Taylor-Swift#
 > [!NOTE]
 > Three digits are included in the `Lyric Line Number` part of lyric labels, as the '10 Minute Version' of the song 'All Too Well' has 109 lyric lines!
 
-
+![CoTS low freq word cloud](img/cots-word-cloud-low-fq-words.png)
