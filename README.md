@@ -247,7 +247,7 @@ For example, the lyric word `kid` has the `SongOccurrences` values:
 
 [ `RED:16#3`, `RED:30#1`, `FOL:10#2`, `EVE:5#2`, `MID:5#4`, `...MANY` ]
 
-This is interpreted as the word `kid` occurring 3 times on track 16 of the album 'Red', once on track 30 of the album 'Red', twice on track 10 of the album 'Folklore', and so on.
+This is interpreted as the word `kid` occurring three times on track 16 of the album 'Red', once on track 30 of the album 'Red', twice on track 10 of the album 'Folklore', and so on.
 
 ![CoTS word cloud](img/eras-colours-divider.png)
 
