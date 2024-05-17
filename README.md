@@ -187,7 +187,10 @@ This is the number of characters (including any hyphens) that comprise a lyric w
 
 ### Reps _(Repetitions)_
 
-This is the number of times that a lyric word is repeated in lyric lines across all songs and albums. 
+This is the number of times that a lyric word is repeated in lyric lines across all songs and albums. Specifically, these are lyric words that are either uniformly repeated interjections or words that are consecutively repeated in a given lyric line. 
+
+> [!NOTE]
+> A single repetition of a lyric word is assigned a count of two, to represent both instances of the word. 
 
 <details>
 <summary>Lyric examples</summary>
