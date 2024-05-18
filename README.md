@@ -187,7 +187,7 @@ This is the number of characters (including any hyphens) that comprise a lyric w
 
 ### Reps _(Repetitions)_
 
-This is the number of times that a lyric word is repeated in lyric lines across all songs and albums. Specifically, these are lyric words that are either uniformly repeated interjections or words that are consecutively repeated in a given lyric line. However non-hyphaneted full reduplications (e.g. `murmur` or `couscous`) are not counted as repetitions. 
+This is the number of times that a lyric word is repeated in lyric lines across all songs and albums. Specifically, these are lyric words that are either uniformly repeated interjections or words that are consecutively repeated in a given lyric line. However, non-hyphaneted full reduplications (e.g. `murmur` or `couscous`) are not counted as repetitions. 
 
 <details>
 <summary>Lyric examples</summary>
