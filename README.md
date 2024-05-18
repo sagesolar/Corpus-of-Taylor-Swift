@@ -95,7 +95,7 @@ A word that appears one or more times, in one or more lyric lines, on one or mor
 
 ### PoSes _(Part of Speech)_
 
-These are the standard grammatical categorisations that are assigned to English language words. Multiple PoS categories are often assigned to each lyric word in CoTS, and are listed in order of that word's PoS WFWSE frequency. These multiple assignments occur due to the presence of many homographic words in English. Such words that are spelled the same but have different meanings. Consider the word `close`, which can be an adjective, adverb, noun or verb; or the word `minute` which can be an adjective, noun or verb.
+These are the standard grammatical categorisations that are assigned to English language words. Multiple PoS categories are often assigned to each lyric word in CoTS, and are listed in order of that word's PoS WFWSE frequency. These multiple assignments occur due to the presence of many homographic words in English. Such words are spelled the same but have different meanings. Consider the word `close`, which can be an adjective, adverb, noun or verb; or the word `minute` which can be an adjective, noun or verb.
 
 Standard PoS categories appear abbreviated within CoTS as follows:
 
