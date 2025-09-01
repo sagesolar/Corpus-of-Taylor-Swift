@@ -1,13 +1,13 @@
-Code	Title	SubTitle	Year	LowestFqWord	PrevalentVerb	PrevalentAdjective	PrevalentNoun	Songs	Lines	Words
-TSW	Taylor Swift		2006	stoppin'	love	beautiful	song	14	563	4005
-FER	Fearless	Taylor's Version	2021	fakin'	feel	little	baby	25	1102	8355
-SPN	Speak Now	Taylor's Version	2023	pretending	love	little	life	22	1132	8790
-RED	Red	Taylor's Version	2021	pretendin'	love	better	night	28	1431	10513
-NEN	1989	Taylor's Version	2023	pacin'	love	clear	baby	22	1218	9379
-REP	Reputation		2017	stabbed	call	bad	baby	15	941	7229
-LVR	Lover		2019	wonderin'	love	bad	daylight	18	922	6703
-FOL	Folklore		2020	pacing	love	mad	woman	17	720	5110
-EVE	Evermore		2020	backlogged	love	left	thing	17	910	5985
-MID	Midnights	The Til Dawn Edition	2022	wondering	love	different	karma	21	1071	7002
-TPD	The Tortured Poets Department	The Anthology	2024	engulfed	tell	bad	life	31	1547	10632
-OTH	Other Songs			wondering	run	young	matter	2	85	530
+"Code"	"Title"	"SubTitle"	"Year"	"LowestFqWord"	"PrevalentVerb"	"PrevalentAdjective"	"PrevalentNoun"	"Songs"	"Lines"	"Words"
+"TSW"	"Taylor Swift"	""	2006	"stoppin'"	"love"	"beautiful"	"song"	14	563	4005
+"FER"	"Fearless"	"Taylor's Version"	2021	"fakin'"	"feel"	"little"	"baby"	25	1102	8355
+"SPN"	"Speak Now"	"Taylor's Version"	2023	"pretending"	"love"	"little"	"life"	22	1132	8790
+"RED"	"Red"	"Taylor's Version"	2021	"pretendin'"	"love"	"better"	"night"	28	1431	10513
+"NEN"	"1989"	"Taylor's Version"	2023	"pacin'"	"love"	"clear"	"baby"	22	1218	9379
+"REP"	"Reputation"	""	2017	"stabbed"	"call"	"bad"	"baby"	15	941	7229
+"LVR"	"Lover"	""	2019	"wonderin'"	"love"	"bad"	"daylight"	18	922	6703
+"FOL"	"Folklore"	""	2020	"pacing"	"love"	"mad"	"woman"	17	720	5110
+"EVE"	"Evermore"	""	2020	"backlogged"	"love"	"left"	"thing"	17	910	5985
+"MID"	"Midnights"	"The Til Dawn Edition"	2022	"wondering"	"love"	"different"	"karma"	21	1071	7002
+"TPD"	"The Tortured Poets Department"	"The Anthology"	2024	"engulfed"	"tell"	"bad"	"life"	31	1547	10632
+"OTH"	"Other Songs"	""		"wondering"	"run"	"young"	"matter"	2	85	530
