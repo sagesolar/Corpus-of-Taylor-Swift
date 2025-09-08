@@ -20,6 +20,8 @@ Lyric words have also been categorised using the [Oxford 5000 by CEFR level](htt
 
 CoTS also utilises the [Oxford English Corpus (OEC) top 100 most frequent words](https://en.wikipedia.org/wiki/Most_common_words_in_English) of the English language, as described in several sections below.
 
+## Custom Word Variants
+
 To ensure as complete lyric word categorisation as possible, the following have been added to WFWSE word variants, as applicable:
 
 - American word spellings, eg. `marvelous` added as a variant of `marvellous`
@@ -28,7 +30,9 @@ To ensure as complete lyric word categorisation as possible, the following have 
 - possessive nouns, eg. `friend's` or `parents'` added as variants of `friend` and `parent` respectively
 - numeric forms of numbers, eg. `13`🐍 added as a variant of `thirteen`
 
-Moreover, the following lyric words have been replaced with WFWSE equivalents: 
+## Word Replacements
+
+The following lyric words have been replaced with WFWSE equivalents:
 
 - `rollercoaster` is listed as `roller-coaster`
 - `lighthearted` is listed as `light-hearted`
@@ -36,6 +40,26 @@ Moreover, the following lyric words have been replaced with WFWSE equivalents:
 - `fairytale` is listed as `fairy-tale` 📘
 - `namedropping` is listed as `name-dropping`
 - `takeout` is listed as `take-out`
+- `ole` is listed as `old` (when used as an alternative spelling, eg. ole city)
+
+Moreover, lyric words that include partial self-repetitions and are already classified are normalized by substituting them with their classified forms. For example:
+
+- `insane-ane` is listed as `insane`
+- `i-island` is listed as `island` 🏝️
+- `me-e-e` is listed as `me`
+- `mind-ind-ind` is listed as `mind`
+- `vendetta-ta` is listed as `vendetta`
+
+## Informal Contractions
+
+Words that are informal contractions have been categorised as contractions in CoTS. For example:
+
+- `betcha`
+- `dunno`
+- `gimme`
+- `hella`
+- `tryna`
+- `whatcha`
 
 # Housekeeping
 
@@ -46,14 +70,15 @@ For brevity, CoTS uses the following album codes when referring to albums:
 - `TSW` - Taylor Swift _(aka Debut)_
 - `FER` - Fearless
 - `SPN` - Speak Now
-- `RED` - Red
+- `RED` - Red 👄
 - `NEN` - 1989
 - `REP` - Reputation
-- `LVR` - Lover 💌
-- `FOL` - Folklore
+- `LVR` - Lover
+- `FOL` - Folklore 🍂
 - `EVE` - Evermore 
 - `MID` - Midnights
 - `TPD` - The Tortured Poets Department
+- `LSG` - The Life of a Showgirl 🧡
 - `OTH` - Other Songs
 
 > [!NOTE]
@@ -74,8 +99,8 @@ The following files are provided in addition to the main CoTS file:
 - [lyrics/album-song-lyrics.json](lyrics/flat-song-lyrics.json) - This is the same flat set of lyric lines that is provided in CoTS.
 - [tsv/cots-word-details.tsv](tsv/cots-word-details.tsv) - A flat version of the CoTS 'WordDetails' worksheet.
 - [tsv/cots-song-details.tsv](tsv/cots-song-details.tsv) - A flat version of the CoTS 'SongDetails' worksheet.
-- [tsv/cots-lyric-details.tsv](tsv/cots-lyric-details.tsv) - A flat version of the CoTS 'LyricDetails' worksheet.
 - [tsv/cots-album-details.tsv](tsv/cots-album-details.tsv) - A flat version of the CoTS 'AlbumDetails' worksheet.
+- [tsv/cots-lyric-details.tsv](tsv/cots-lyric-details.tsv) - A flat version of the CoTS 'LyricDetails' worksheet.
 
 # Corpus Parts
 
@@ -89,14 +114,14 @@ This part is the main body of the corpus and lists each lyric word along with va
 
 ### Word
 
-A word that appears one or more times, in one or more lyric lines, on one or more songs. These are primarily presented in lower case, apart from proper nouns such as `Emma`, `Hollywood` or `January`. Variations of a word or multiple tenses of the same word are grouped together in the same frequency banding/rank (eg. the words `sayin'`, `says` and `say` all share the same `FqBand`, `OECRank` and `CEFRLevel`, as do separately the words `doing`, `does`, `done`, `did` and `do`).
+A word that appears one or more times, in one or more lyric lines, on one or more songs. These are primarily presented in lower case, apart from proper nouns such as `Emma`, `Hollywood` or `January`. Variations of a word or multiple tenses of the same word are grouped together in the same frequency banding/rank (eg. the words `sayin'`, `says` and `say` all share the same `FqBand`, `OECRank` and `CEFRLevel`, as do separately the words `doing`, `does`, `done`, `did` and `do`). Words are sorted in ascending order by OECRank, followed by FqBand, PoSes, and finally the word itself.
 
 > [!NOTE]
 > Some proper nouns such as place names or names of individuals have been hyphenated to preserve single word consistency when searching, eg. `New-York`, `Miss-Americana` and `Tim-McGraw`. Additionally, the word `I` is listed as `i`, for clarity.
 
 ### PoSes _(Part of Speech)_
 
-These are the standard grammatical categorisations that are assigned to English language words. Multiple PoS categories are often assigned to each lyric word in CoTS, and are listed in order of that word's PoS WFWSE frequency. These multiple assignments occur due to the presence of many homographic words in English. Such words are spelled the same but have different meanings. Consider the word `close`, which can be an adjective, adverb, noun or verb; or the word `minute` which can be an adjective, noun or verb.
+These are the standard grammatical categorisations that are assigned to English language words. Each lyric word in CoTS may be associated with multiple PoS categories, which are sorted in ascending order based on their PoS WFWSE frequency for that word. These multiple assignments occur due to the presence of many homographic words in English. Such words are spelled the same but have different meanings. Consider the word `close`, which can be an adjective, adverb, noun or verb; or the word `minute` which can be an adjective, noun or verb.
 
 Standard PoS categories appear abbreviated within CoTS as follows:
 
@@ -113,7 +138,7 @@ Standard PoS categories appear abbreviated within CoTS as follows:
 - `Pron` - Pronoun 
 - `Verb` - Verb
 
-Additionally, the following non-standard categories have been added for contractions (eg. `doesn't`, `should've`, `wanna`), proper nouns (eg. `London`, `Halloween`, `James`) and currently unclassified words:
+Additionally, the following non-standard categories have been added for contractions/informal contractions (eg. `doesn't`, `should've`, `wanna`), proper nouns (eg. `London`, `Halloween`, `James`) and currently unclassified words:
 
 - `Cont` - Contraction
 - `Prop` - Proper Noun 
@@ -154,7 +179,7 @@ The Oxford 5000 CEFR list does not include 'C2' categorised words, however non-c
 
 Each lyric word in CoTS is listed with its next three most frequently occurring words in these columns. For example, the lyric word `high` has the `NextWord[1-2-3]` values:
 
-[ `infidelity (6)`, `heels (4)`, `above (3)` ]
+[ `infidelity#6`, `heels#4`, `above#3` ]
 
 This can be read as the most frequent next word occurrence for the lyric word `high` across all songs and albums is `infidelity`, occurring 6 times. The next most frequent word occurrence is `heels`, occurring 4 times and the one after that is `above`, occurring 3 times. 
 
@@ -235,13 +260,15 @@ This is the total count of songs that a lyric word occurs at least once in.
 
 ### AlbumOccurrences
 
-These are a collection of one or more labels representing albums and corresponding times that a lyric word occurs on each album. 
+These are a collection of one or more labels representing albums and corresponding times that a lyric word occurs on each album. If a lyric word occurs on more than five albums, then the first five albums are listed, followed by a `...MANY` label to represent the rest.
 
 For example, the lyric word `blood` has the `AlbumOccurrences` values:
 
 [ `NEN#19`, `FOL#2`, `EVE#1`, `MID#7` ]
 
 This is interpreted as the word `blood` occurring 19 times on the album '1989', twice on the album 'Folklore', once on the album 'Evermore' and seven times on the album 'Midnights'.
+
+This column is useful for identifying words that are unique to a single album.
 
 ### SongOccurrences
 
