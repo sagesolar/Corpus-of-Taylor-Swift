@@ -99,8 +99,8 @@ The following files are provided in addition to the main CoTS file:
 - [lyrics/album-song-lyrics.json](lyrics/flat-song-lyrics.json) - This is the same flat set of lyric lines that is provided in CoTS.
 - [tsv/cots-word-details.tsv](tsv/cots-word-details.tsv) - A flat version of the CoTS 'WordDetails' worksheet.
 - [tsv/cots-song-details.tsv](tsv/cots-song-details.tsv) - A flat version of the CoTS 'SongDetails' worksheet.
-- [tsv/cots-lyric-details.tsv](tsv/cots-lyric-details.tsv) - A flat version of the CoTS 'LyricDetails' worksheet.
 - [tsv/cots-album-details.tsv](tsv/cots-album-details.tsv) - A flat version of the CoTS 'AlbumDetails' worksheet.
+- [tsv/cots-lyric-details.tsv](tsv/cots-lyric-details.tsv) - A flat version of the CoTS 'LyricDetails' worksheet.
 
 # Corpus Parts
 
@@ -114,14 +114,14 @@ This part is the main body of the corpus and lists each lyric word along with va
 
 ### Word
 
-A word that appears one or more times, in one or more lyric lines, on one or more songs. These are primarily presented in lower case, apart from proper nouns such as `Emma`, `Hollywood` or `January`. Variations of a word or multiple tenses of the same word are grouped together in the same frequency banding/rank (eg. the words `sayin'`, `says` and `say` all share the same `FqBand`, `OECRank` and `CEFRLevel`, as do separately the words `doing`, `does`, `done`, `did` and `do`).
+A word that appears one or more times, in one or more lyric lines, on one or more songs. These are primarily presented in lower case, apart from proper nouns such as `Emma`, `Hollywood` or `January`. Variations of a word or multiple tenses of the same word are grouped together in the same frequency banding/rank (eg. the words `sayin'`, `says` and `say` all share the same `FqBand`, `OECRank` and `CEFRLevel`, as do separately the words `doing`, `does`, `done`, `did` and `do`). Words are sorted in ascending order by OECRank, followed by FqBand, PoSes, and finally the word itself.
 
 > [!NOTE]
 > Some proper nouns such as place names or names of individuals have been hyphenated to preserve single word consistency when searching, eg. `New-York`, `Miss-Americana` and `Tim-McGraw`. Additionally, the word `I` is listed as `i`, for clarity.
 
 ### PoSes _(Part of Speech)_
 
-These are the standard grammatical categorisations that are assigned to English language words. Multiple PoS categories are often assigned to each lyric word in CoTS, and are listed in order of that word's PoS WFWSE frequency. These multiple assignments occur due to the presence of many homographic words in English. Such words are spelled the same but have different meanings. Consider the word `close`, which can be an adjective, adverb, noun or verb; or the word `minute` which can be an adjective, noun or verb.
+These are the standard grammatical categorisations that are assigned to English language words. Each lyric word in CoTS may be associated with multiple PoS categories, which are sorted in ascending order based on their PoS WFWSE frequency for that word. These multiple assignments occur due to the presence of many homographic words in English. Such words are spelled the same but have different meanings. Consider the word `close`, which can be an adjective, adverb, noun or verb; or the word `minute` which can be an adjective, noun or verb.
 
 Standard PoS categories appear abbreviated within CoTS as follows:
 
