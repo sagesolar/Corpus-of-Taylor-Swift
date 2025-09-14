@@ -25,7 +25,7 @@ CoTS also utilises the [Oxford English Corpus (OEC) top 100 most frequent words]
 To ensure as complete lyric word categorisation as possible, the following have been added to WFWSE word variants, as applicable:
 
 - American word spellings, eg. `marvelous` added as a variant of `marvellous`
-- common acronyms, eg. `TV` or `PJs` added as variants of `television` and `pyjama` respectively
+- common acronyms, eg. `TV` or `PJs` added as variants of `television`📺 and `pyjama` respectively
 - simple contractions, eg. `'cause` or `playin'` added as variants of `because` and `playing` respectively
 - possessive nouns, eg. `friend's` or `parents'` added as variants of `friend` and `parent` respectively
 - numeric forms of numbers, eg. `13`🐍 added as a variant of `thirteen`
