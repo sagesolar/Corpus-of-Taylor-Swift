@@ -381,7 +381,7 @@ Each lyric is labelled with `Album Code` : `Track Number` : `Lyric Line Number` 
 - `EVE:02:001:V`	- _You booked the night train for a reason_
 - `MID:02:039:C`	- _The rust that grew between telephones_ 📞
 - `TPD:18:042:B`	- _Pick your poison, babe, I'm poison either way_
-- `LSG:11:055:I` - _But you can call me "honey" if you want_🐝
+- `LSG:11:055:I`	- _But you can call me "honey" if you want_🐝
 
 See the [Word Details part](https://github.com/sagesolar/Corpus-of-Taylor-Swift#verse--bridge--chorus--refrain--inout-introoutro) for song structure part details.
 
