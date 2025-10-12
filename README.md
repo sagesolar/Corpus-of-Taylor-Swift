@@ -96,7 +96,7 @@ To prevent duplicate counts of lyric words, versions of songs that are pure remi
 The following files are provided in addition to the main CoTS file:
 
 - [lyrics/album-song-lyrics.json](lyrics/album-song-lyrics.json) - This is the raw album, song and lyric dataset used to compile CoTS.
-- [lyrics/album-song-lyrics.json](lyrics/flat-song-lyrics.json) - This is the same flat set of lyric lines that is provided in CoTS.
+- [lyrics/flat-song-lyrics.json](lyrics/flat-song-lyrics.json) - This is the same flat set of lyric lines that is provided in CoTS.
 - [tsv/cots-word-details.tsv](tsv/cots-word-details.tsv) - A flat version of the CoTS 'WordDetails' worksheet.
 - [tsv/cots-song-details.tsv](tsv/cots-song-details.tsv) - A flat version of the CoTS 'SongDetails' worksheet.
 - [tsv/cots-album-details.tsv](tsv/cots-album-details.tsv) - A flat version of the CoTS 'AlbumDetails' worksheet.
