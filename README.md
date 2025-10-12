@@ -10,7 +10,7 @@ CoTS is generated using 'Taylor's Version' album lyrics where available, and inc
 
 Happy browsing and friendship bracelet making! 🐈
 
-![CoTS word cloud](img/cots-word-cloud.png)
+![CoTS word cloud](img/cots-word-cloud-lsg.png)
 
 # Word Categorisation
 
@@ -40,7 +40,7 @@ The following lyric words have been replaced with WFWSE equivalents:
 - `fairytale` is listed as `fairy-tale` 📘
 - `namedropping` is listed as `name-dropping`
 - `takeout` is listed as `take-out`
-- `ole` is listed as `old` (when used as an alternative spelling, eg. ole city)
+- `ole` is listed as `old` (when used as an alternative spelling, eg. 'ole city')
 
 Moreover, lyric words that include partial self-repetitions and are already classified are normalized by substituting them with their classified forms. For example:
 
@@ -82,7 +82,7 @@ For brevity, CoTS uses the following album codes when referring to albums:
 - `OTH` - Other Songs
 
 > [!NOTE]
-> CoTS now includes all song lyrics from the 'The Tortured Poets Department' album.
+> CoTS now includes all song lyrics from the 'The Life of a Showgirl' album.
 
 ## Song Selection
 
@@ -280,6 +280,9 @@ For example, the lyric word `kid` has the `SongOccurrences` values:
 
 This is interpreted as the word `kid` occurring three times on track 16 of the album 'Red', once on track 30 of the album 'Red', twice on track 10 of the album 'Folklore', and so on.
 
+> [!NOTE]
+> This column does not appear in the [word details tsv](tsv/cots-word-details.tsv), in order meet the [file size limit for rendering tabular data on GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#rendering-csv-and-tsv-data). To view this column, see the main CoTS file.
+
 ![CoTS word cloud](img/eras-colours-divider.png)
 
 ## Song Details 🎶
@@ -378,6 +381,7 @@ Each lyric is labelled with `Album Code` : `Track Number` : `Lyric Line Number` 
 - `EVE:02:001:V`	- _You booked the night train for a reason_
 - `MID:02:039:C`	- _The rust that grew between telephones_ 📞
 - `TPD:18:042:B`	- _Pick your poison, babe, I'm poison either way_
+- `LSG:11:055:I`	- _But you can call me "honey" if you want_🐝
 
 See the [Word Details part](https://github.com/sagesolar/Corpus-of-Taylor-Swift#verse--bridge--chorus--refrain--inout-introoutro) for song structure part details.
 
