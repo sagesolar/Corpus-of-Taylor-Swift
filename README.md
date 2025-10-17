@@ -1,6 +1,6 @@
 # Corpus of Taylor Swift _(CoTS)_
 
-![CoTS word cloud](img/eras-colours-divider.png)
+![CoTS eras colours divider](img/eras-colours-divider.png)
 
 # Introduction
 
@@ -106,7 +106,7 @@ The following files are provided in addition to the main CoTS file:
 
 The corpus is provided in four parts, representing details and statistics of lyric words, songs, albums and lyrics. Details of the columns that comprise each of these parts are provided below.
 
-![CoTS word cloud](img/eras-colours-divider.png)
+![CoTS eras colours divider](img/eras-colours-divider.png)
 
 ## Word Details 💬
 
@@ -283,7 +283,7 @@ This is interpreted as the word `kid` occurring three times on track 16 of the a
 > [!NOTE]
 > This column does not appear in the [word details tsv](tsv/cots-word-details.tsv), in order meet the [file size limit for rendering tabular data on GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#rendering-csv-and-tsv-data). To view this column, see the main CoTS file.
 
-![CoTS word cloud](img/eras-colours-divider.png)
+![CoTS eras colours divider](img/eras-colours-divider.png)
 
 ## Song Details 🎶
 
@@ -330,7 +330,7 @@ This is the total count of words in a song.
 
 The [genius.com](https://genius.com/artists/Taylor-swift) link corresponding to a song.
 
-![CoTS word cloud](img/eras-colours-divider.png)
+![CoTS eras colours divider](img/eras-colours-divider.png)
 
 ## Album Details 💿
 
@@ -363,7 +363,7 @@ This is the total count of lyric lines on an album.
 
 This is the total count of words on an album.
 
-![CoTS word cloud](img/eras-colours-divider.png)
+![CoTS eras colours divider](img/eras-colours-divider.png)
 
 ## Lyrics 🎙
 
