@@ -10,7 +10,7 @@ CoTS is generated using 'Taylor's Version' album lyrics where available, and inc
 
 Happy browsing and friendship bracelet making! 🐈
 
-![CoTS word cloud](img/cots-word-cloud-lsg.png)
+![CoTS word cloud](img/cots-word-cloud.png)
 
 # Word Categorisation
 
@@ -48,6 +48,7 @@ Moreover, lyric words that include partial self-repetitions and are already clas
 - `i-island` is listed as `island` 🏝️
 - `me-e-e` is listed as `me`
 - `mind-ind-ind` is listed as `mind`
+- `pr-pr-promises` is listed as `promises`
 - `vendetta-ta` is listed as `vendetta`
 
 ## Informal Contractions
@@ -93,7 +94,7 @@ To prevent duplicate counts of lyric words, versions of songs that are pure remi
 
 ## Supplemental Files
 
-The following files are provided in addition to the main CoTS file:
+The following files are provided in addition to [the main CoTS file](Corpus-of-Taylor-Swift.xlsx):
 
 - [lyrics/album-song-lyrics.json](lyrics/album-song-lyrics.json) - This is the raw album, song and lyric dataset used to compile CoTS.
 - [lyrics/flat-song-lyrics.json](lyrics/flat-song-lyrics.json) - This is the same flat set of lyric lines that is provided in CoTS.
@@ -142,10 +143,10 @@ Additionally, the following non-standard categories have been added for contract
 
 - `Cont` - Contraction
 - `Prop` - Proper Noun 
-- `Uncl` - Unclassified
+- `Uncl` - Unclassified 💀
 
 > [!NOTE]
-> A small number of compound words, irregular interjections, non-words etc. (eg. `wine-stained`, `ooh-hoo-hoo`, `3AM`) are currently marked as `Uncl`. These may be classified in future versions of CoTS.
+> A small number of compound words, irregular interjections, non-words etc. (eg. `wine-stained`, `ooh-hoo-hoo`, `3AM`, `bi`) are currently marked as `Uncl`. These may be classified in future versions of CoTS.
 
 ### FqBand _(Frequency Band)_
 
@@ -281,7 +282,7 @@ For example, the lyric word `kid` has the `SongOccurrences` values:
 This is interpreted as the word `kid` occurring three times on track 16 of the album 'Red', once on track 30 of the album 'Red', twice on track 10 of the album 'Folklore', and so on.
 
 > [!NOTE]
-> This column does not appear in the [word details tsv](tsv/cots-word-details.tsv), in order meet the [file size limit for rendering tabular data on GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#rendering-csv-and-tsv-data). To view this column, see the main CoTS file.
+> This column does not appear in the [word details tsv](tsv/cots-word-details.tsv), in order meet the [file size limit for rendering tabular data on GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#rendering-csv-and-tsv-data). To view this column, see the [main CoTS file](Corpus-of-Taylor-Swift.xlsx).
 
 ![CoTS eras colours divider](img/eras-colours-divider.png)
 
@@ -371,17 +372,17 @@ This part of CoTS provides a flat set of all lyric lines in each song included i
 Each lyric is labelled with `Album Code` : `Track Number` : `Lyric Line Number` : `Song Structure Part` as shown in the following examples:
 
 - `TSW:03:013:C` - _He's the reason for the teardrops on my guitar_ 🎸
-- `FER:01:017:C`	- _In a storm, in my best dress, fearless_
-- `SPN:09:019:C`	- _I was enchanted to meet you_
-- `RED:30:090:V`	- _I remember it all too well_
-- `NEN:14:015:C`	- _We found Wonderland, you and I got lost in it_
+- `FER:01:017:C` - _In a storm, in my best dress, fearless_
+- `SPN:09:019:C` - _I was enchanted to meet you_
+- `RED:30:090:V` - _I remember it all too well_
+- `NEN:14:015:C` - _We found Wonderland, you and I got lost in it_
 - `REP:01:036:R` - _Baby, let the games begin_ 🎲
-- `LVR:14:009:C`	- _And snakes and stones never broke my bones_
+- `LVR:14:009:C` - _And snakes and stones never broke my bones_
 - `FOL:03:037:I` - _I had a marvelous time ruining everything_ 🥂
-- `EVE:02:001:V`	- _You booked the night train for a reason_
-- `MID:02:039:C`	- _The rust that grew between telephones_ 📞
-- `TPD:18:042:B`	- _Pick your poison, babe, I'm poison either way_
-- `LSG:11:055:I`	- _But you can call me "honey" if you want_ 🐝
+- `EVE:02:001:V` - _You booked the night train for a reason_
+- `MID:02:039:C` - _The rust that grew between telephones_ 📞
+- `TPD:18:042:B` - _Pick your poison, babe, I'm poison either way_
+- `LSG:11:055:I` - _But you can call me "honey" if you want_ 🐝
 
 See the [Word Details part](https://github.com/sagesolar/Corpus-of-Taylor-Swift#verse--bridge--chorus--refrain--inout-introoutro) for song structure part details.
 
