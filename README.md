@@ -83,7 +83,7 @@ For brevity, CoTS uses the following album codes when referring to albums:
 - `OTH` - Other Songs
 
 > [!NOTE]
-> CoTS now includes all song lyrics from the 'The Life of a Showgirl' album.
+> CoTS now includes all song lyrics from the 'The Life of a Showgirl' album (including the additional "The Encore" songs).
 
 ## Song Selection
 
