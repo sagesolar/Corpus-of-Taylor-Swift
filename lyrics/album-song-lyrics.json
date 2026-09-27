@@ -59756,7 +59756,7 @@
   {
     "Code": "LSG",
     "Title": "The Life Of A Showgirl",
-    "SubTitle": "",
+    "SubTitle": "The Encore",
     "Year": 2025,
     "Songs": [
       {
@@ -62996,6 +62996,968 @@
             "SongPart": "IntroOutro"
           }
         ]
+      },
+      {
+        "TrackNumber": 13,
+        "Title": "Patient Zero",
+        "FromTheVault": false,
+        "FeaturedArtists": [],
+        "Lyrics": [
+          {
+            "Order": 1,
+            "Text": "If you wanna party with somebody who might know",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 2,
+            "Text": "About the devil on his shoulder under his halo",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 3,
+            "Text": "When the toxins take their hold, you'd rather die than let it go",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 4,
+            "Text": "But if you’re sick of him, I got you, I was patient zero",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 5,
+            "Text": "I've gotta be honest, I've been expecting your call",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 6,
+            "Text": "No, it’s not a bad time at all",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 7,
+            "Text": "I heard somebody saying there's trouble in paradise",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 8,
+            "Text": "And my lips are sealed tight now",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 9,
+            "Text": "It's not for me to tell",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 10,
+            "Text": "Someone else what to do",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 11,
+            "Text": "But if you wanna party with somebody who might know",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 12,
+            "Text": "About the devil on his shoulder under his halo",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 13,
+            "Text": "When the toxins take their hold, you'd rather die than let it go",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 14,
+            "Text": "But if you're sick of him, I got you, I was patient zero",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 15,
+            "Text": "I bet he burst into your life like fireworks",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 16,
+            "Text": "I bet he even said \"I love you\" first",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 17,
+            "Text": "And when you saw another woman coming out of his place",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 18,
+            "Text": "I bet he kissed the rain off your face",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 19,
+            "Text": "Now he seems bored by you",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 20,
+            "Text": "And you don't know what to do",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 21,
+            "Text": "But if you wanna party with somebody who might know",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 22,
+            "Text": "About the devil on his shoulder under his halo",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 23,
+            "Text": "When the toxins take their hold, you'd rather die than let it go",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 24,
+            "Text": "But if you're sick of him, I got you, I was patient zero (I was patient)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 25,
+            "Text": "I was patient zero",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 26,
+            "Text": "So let’s get into it",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 27,
+            "Text": "I know he charmed your family and friends",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 28,
+            "Text": "And you thought it’s 'cause he loves you",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 29,
+            "Text": "But it’s 'cause he loves how everybody else loves him (Uh-huh)",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 30,
+            "Text": "I know it seems like he shines so bright",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 31,
+            "Text": "But he's bathing in your reflected light",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 32,
+            "Text": "On a free solo social climb (Uh-huh)",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 33,
+            "Text": "Take it from somebody who lost his games but won the race",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 34,
+            "Text": "Take it from someone who said all of this to his face",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 35,
+            "Text": "Someone who knows she's more than just the chase",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 36,
+            "Text": "Someone who had him and walked away",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 37,
+            "Text": "And so",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 38,
+            "Text": "If you wanna party with somebody who might know",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 39,
+            "Text": "About the devil on his shoulder under his halo",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 40,
+            "Text": "And when the toxins take their hold, you’d rather die than let it go",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 41,
+            "Text": "But if you're sick of him, I got you, I was patient zero",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 42,
+            "Text": "So if you wanna kick it, then I'm with it, I've been there",
+            "SongPart": "IntroOutro"
+          },
+          {
+            "Order": 43,
+            "Text": "Felt the reeling, done the healing, said the curses and prayers",
+            "SongPart": "IntroOutro"
+          },
+          {
+            "Order": 44,
+            "Text": "When the fever turns a dreamer into a pathetic ghost",
+            "SongPart": "IntroOutro"
+          },
+          {
+            "Order": 45,
+            "Text": "If he's killing you, I see you, I was patient zero",
+            "SongPart": "IntroOutro"
+          }
+        ]
+      },
+      {
+        "TrackNumber": 14,
+        "Title": "Cleveland!",
+        "FromTheVault": false,
+        "FeaturedArtists": [],
+        "Lyrics": [
+          {
+            "Order": 1,
+            "Text": "She's not as hot as she was, but she was only a four",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 2,
+            "Text": "She was never a girls'-girl, she was just a—",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 3,
+            "Text": "And with all of that money, why's she dressed like trash?",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 4,
+            "Text": "When she smiles, it's annoying, and have you seen her",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 5,
+            "Text": "Stumbling clumsily?",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 6,
+            "Text": "Would you even call that dancing?",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 7,
+            "Text": "I can see what you mean",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 8,
+            "Text": "And now I guess there's",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 9,
+            "Text": "Something we all can agree on",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 10,
+            "Text": "But my baby likes what he likes, oh-woah, oh-oh",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 11,
+            "Text": "He already took me to Cleveland",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 12,
+            "Text": "And showed me The-Heights, so hate all you like",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 13,
+            "Text": "This is the love of my life, hey, hey, hey",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 14,
+            "Text": "The taste of me is acquired, but it's his favorite dish",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 15,
+            "Text": "He says I look like an angel, they say, \"I hate that—\" (Bi—)",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 16,
+            "Text": "There, that house with the porch is where he lived as a kid",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 17,
+            "Text": "He's been saying forever, must not have read that",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 18,
+            "Text": "Scathing take 'bout how I'm fake",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 19,
+            "Text": "And he could find someone younger",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 20,
+            "Text": "I can see what they mean",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 21,
+            "Text": "And now I guess there's",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 22,
+            "Text": "Something we all can agree on",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 23,
+            "Text": "But my baby likes what he likes, oh-woah, oh-oh",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 24,
+            "Text": "He already took me to Cleveland",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 25,
+            "Text": "And he showed me The-Heights (Hey), so hate all you like (Uh-huh)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 26,
+            "Text": "This is the love of my life, hey, hey, hey",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 27,
+            "Text": "He likes what he likes, what he likes, and he likes me",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 28,
+            "Text": "He likes what he likes, what he likes, and he likes me",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 29,
+            "Text": "You only need to find one person in this entire world",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 30,
+            "Text": "Who doesn't find you completely insufferable",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 31,
+            "Text": "And I have an important announcement to make",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 32,
+            "Text": "I found mine (That's right)",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 33,
+            "Text": "Well, I found mine (Hey, hey, hey)",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 34,
+            "Text": "Yeah, I found mine",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 35,
+            "Text": "Yes, that's",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 36,
+            "Text": "Something we all can agree on (I guess we agree, but)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 37,
+            "Text": "But my baby likes what he likes, oh-woah, oh-oh",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 38,
+            "Text": "He already took me to Cleveland (To Cleveland)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 39,
+            "Text": "Now I'm wearing white (Yeah), so hate all you like (Uh-huh)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 40,
+            "Text": "This is the love of my life (Hey, hey, hey)",
+            "SongPart": "Chorus"
+          }
+        ]
+      },
+      {
+        "TrackNumber": 15,
+        "Title": "Pink Clouding",
+        "FromTheVault": false,
+        "FeaturedArtists": [],
+        "Lyrics": [
+          {
+            "Order": 1,
+            "Text": "(Ah-ah-ah)",
+            "SongPart": "IntroOutro"
+          },
+          {
+            "Order": 2,
+            "Text": "(Ah-ah-ah)",
+            "SongPart": "IntroOutro"
+          },
+          {
+            "Order": 3,
+            "Text": "Met the magenta sunrise",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 4,
+            "Text": "Fuchsia forever intertwined",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 5,
+            "Text": "Threw the rosewood on the fire",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 6,
+            "Text": "Neither of us knew at the time",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 7,
+            "Text": "That I was a liar",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 8,
+            "Text": "And it was so good",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 9,
+            "Text": "Letting you want me, so good",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 10,
+            "Text": "To make promises, promises, pr-pr-promises",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 11,
+            "Text": "But I was pink-clouding from the thrill of it (Pink, ha, ha, ha)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 12,
+            "Text": "Skydiving as you wrapped your arms around my body",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 13,
+            "Text": "Gray (Gray) rockin' where the arrow hit (Ha, ha, ha)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 14,
+            "Text": "Years later, I still wonder how to tell you sorry",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 15,
+            "Text": "I didn't wanna let you down (Pink cloud, pink cloud)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 16,
+            "Text": "So I left you up there on a pink cloud (Pink cloud)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 17,
+            "Text": "He cut me crimson, bled me dry",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 18,
+            "Text": "He crossеd my heart, I hoped to die (Hopеd to die)",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 19,
+            "Text": "Ripped all my orchids from the vine",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 20,
+            "Text": "You met me at a cursed time",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 21,
+            "Text": "I told you I was fine",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 22,
+            "Text": "And you were so good (Good)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 23,
+            "Text": "That's why you haunt me like you should (Should)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 24,
+            "Text": "And all my promises, promises, pr-pr-promises",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 25,
+            "Text": "'Cause I was pink cloudin' from the thrill of it (Pink, ha, ha, ha)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 26,
+            "Text": "Skydiving as you wrapped your arms around my body",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 27,
+            "Text": "Gray (Gray) rockin' where the arrow hit (Ha, ha, ha)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 28,
+            "Text": "Years later, I still wonder how to tell you sorry",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 29,
+            "Text": "I didn't want to let you down (Pink cloud, pink cloud)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 30,
+            "Text": "So I left you up there on a pink cloud (Pink, pink cloud)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 31,
+            "Text": "I hope you realized my kind of trouble wasn't worth it",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 32,
+            "Text": "And the way I treated you, you never deserved it",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 33,
+            "Text": "And I swear to god, to this day",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 34,
+            "Text": "I wake up scared that I left scars on a good person",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 35,
+            "Text": "And I gave you zero reason to believe it, so be it",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 36,
+            "Text": "But it didn't mean nothing just 'cause I could leave it",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 37,
+            "Text": "I was pink-clouding from the thrill of it (Ha, ha, ha)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 38,
+            "Text": "Skydiving as you wrapped your arms around my body",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 39,
+            "Text": "Gray (Gray) rockin' where the arrow hit (Where the arrow hit, ha, ha, ha)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 40,
+            "Text": "Years later, I still wonder how to tell you sorry",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 41,
+            "Text": "I hope you landed safely on the ground, hey (Pink cloud, pink cloud)",
+            "SongPart": "IntroOutro"
+          },
+          {
+            "Order": 42,
+            "Text": "And I hope you're so happy now (Pink cloud, pink cloud)",
+            "SongPart": "IntroOutro"
+          },
+          {
+            "Order": 43,
+            "Text": "I didn't wanna let you down (Pink cloud, pink cloud)",
+            "SongPart": "IntroOutro"
+          },
+          {
+            "Order": 44,
+            "Text": "So I left you up there (Pink cloud) on a pink cloud",
+            "SongPart": "IntroOutro"
+          }
+        ]
+      },
+      {
+        "TrackNumber": 16,
+        "Title": "Babylon",
+        "FromTheVault": false,
+        "FeaturedArtists": [],
+        "Lyrics": [
+          {
+            "Order": 1,
+            "Text": "The casino doesn't like when you run the tables",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 2,
+            "Text": "And though the box is wrapped up nice, it's just a cage to you",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 3,
+            "Text": "Those electric fences buzz",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 4,
+            "Text": "The stallion flees the stable",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 5,
+            "Text": "And that small town's even smaller now in your rear view",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 6,
+            "Text": "You ran with all the wild things",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 7,
+            "Text": "A liberated libertine who then longed for home",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 8,
+            "Text": "'Cause it's where you're from",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 9,
+            "Text": "Aunt-Virginia with her church dress on",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 10,
+            "Text": "No elbows on the table",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 11,
+            "Text": "And the neighbor's lawn always looked better",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 12,
+            "Text": "Your hand-me-down sweater should've been from the mall",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 13,
+            "Text": "And you hate this song",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 14,
+            "Text": "But you wake up on the train with your headphones gone",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 15,
+            "Text": "Then that melody is all you want",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 16,
+            "Text": "You never knew that it was Babylon",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 17,
+            "Text": "'Til it was gone",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 18,
+            "Text": "Give the people what they want, then you keep it movin'",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 19,
+            "Text": "Make your plans and friends, a stranger's makeup on your tie",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 20,
+            "Text": "Twenty watches in the safe 'cause your time is money",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 21,
+            "Text": "Love is ice upon the ladder that you need to climb",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 22,
+            "Text": "She captured your attention, so free of all pretension",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 23,
+            "Text": "It stopped you cold",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 24,
+            "Text": "Because she loved you so",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 25,
+            "Text": "Pretty as a picture that you didn't post",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 26,
+            "Text": "Lookin' at you like you're made of solid gold",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 27,
+            "Text": "Never official",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 28,
+            "Text": "You mention you're single to the girls at the bar",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 29,
+            "Text": "You hate this song",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 30,
+            "Text": "But you wake up on the train with your headphones gone",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 31,
+            "Text": "And then that melody is all you want",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 32,
+            "Text": "You never knew that it was Babylon",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 33,
+            "Text": "'Til it was gone",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 34,
+            "Text": "You're using nostalgia as a weapon to hurt yourself",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 35,
+            "Text": "But darling, you end up hurting everybody else",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 36,
+            "Text": "The self-harm of never being where you are",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 37,
+            "Text": "It's bedtime, but you're sitting in your car",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 38,
+            "Text": "You're missin' all the best parts",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 39,
+            "Text": "And they're all at home",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 40,
+            "Text": "She's hangin' Christmas lights with your son",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 41,
+            "Text": "Sneaking to the bathroom to call her mom",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 42,
+            "Text": "And say, \"It's not workin'",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 43,
+            "Text": "It's just not worth it if we're not what he wants\"",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 44,
+            "Text": "But you love this song",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 45,
+            "Text": "You wake up on the train with your headphones gone",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 46,
+            "Text": "Then that melody is all you want",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 47,
+            "Text": "You never knew that it was Babylon",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 48,
+            "Text": "And now, it's almost gone",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 49,
+            "Text": "Aunt-Virginia with her church dress on",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 50,
+            "Text": "No elbows on the table",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 51,
+            "Text": "And the neighbor's lawn always looked better (It's almost gone)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 52,
+            "Text": "Your hand-me-down sweater should've been from the mall",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 53,
+            "Text": "But you love this song",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 54,
+            "Text": "You wake up on the train and you're all alone",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 55,
+            "Text": "Then that memory is all you want",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 56,
+            "Text": "You never knew that it was Babylon",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 57,
+            "Text": "'Til it was gone",
+            "SongPart": "Chorus"
+          }
+        ]
       }
     ]
   },
@@ -63443,6 +64405,229 @@
             "Order": 48,
             "Text": "Only the young",
             "SongPart": "IntroOutro"
+          }
+        ]
+      },
+      {
+        "TrackNumber": 3,
+        "Title": "I Knew It, I Knew You",
+        "FromTheVault": false,
+        "FeaturedArtists": [],
+        "Lyrics": [
+          {
+            "Order": 1,
+            "Text": "I knew you through the daze of the blades of the grass in summer",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 2,
+            "Text": "Parachutes for the free fall of being younger",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 3,
+            "Text": "I memorized the sound of your bare footsteps",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 4,
+            "Text": "Running wild, it's been a long time",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 5,
+            "Text": "Life has ways of leaving those days behind",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 6,
+            "Text": "But seeing you tonight",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 7,
+            "Text": "I remembered I loved you",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 8,
+            "Text": "Came back when it mattered, I saw you",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 9,
+            "Text": "Standing there in the light of the window wearing that same smile",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 10,
+            "Text": "Man, it's been a while",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 11,
+            "Text": "But I knew it, I knew you",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 12,
+            "Text": "I knew it, I knew you",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 13,
+            "Text": "I knеw you, all your blues like a mood ring changing colors",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 14,
+            "Text": "You did too, therе were times we could fight like brothers",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 15,
+            "Text": "I watched you drive around the bend for",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 16,
+            "Text": "What I thought would be the last time I saw my friend",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 17,
+            "Text": "But love has ways of bringing things back to life",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 18,
+            "Text": "All you said was, \"Hi\"",
+            "SongPart": "Verse"
+          },
+          {
+            "Order": 19,
+            "Text": "And I remembered I loved you",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 20,
+            "Text": "Came back when it mattered, I saw you",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 21,
+            "Text": "Standing there in the light of the window wearing that same smile",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 22,
+            "Text": "Man, it's been a while",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 23,
+            "Text": "But I knew it, I knew you (I knew, I knew)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 24,
+            "Text": "I knew it, I knew you (I knew, I knew)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 25,
+            "Text": "I knew it, I knew you (I knew, I knew)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 26,
+            "Text": "Ooh",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 27,
+            "Text": "Oh, the rivers I cried when we said goodbye",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 28,
+            "Text": "Wondering if I'd made it up in my mind",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 29,
+            "Text": "But now you look me in the eye",
+            "SongPart": "Bridge"
+          },
+          {
+            "Order": 30,
+            "Text": "And you told me I loved you",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 31,
+            "Text": "Came back when it mattered, I saw you",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 32,
+            "Text": "Standing there in the light of the window wearing that same smile",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 33,
+            "Text": "Yeah, it's been a while, oh-oh",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 34,
+            "Text": "Wearing that same smile",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 35,
+            "Text": "Man, it's been a while (Man, it's been a while)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 36,
+            "Text": "Wearing that same smile",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 37,
+            "Text": "Man, it's been a while",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 38,
+            "Text": "But I knew it, I knew you (Ooh, I knew you, I knew)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 39,
+            "Text": "I knew it, I knew you",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 40,
+            "Text": "Wearing that same smile (Ooh, I knew you, I knew)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 41,
+            "Text": "I knew it, I knew you (Ooh, I knew you, I knew)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 42,
+            "Text": "I knew it, I knew you (Ooh, I knew you, I knew)",
+            "SongPart": "Chorus"
+          },
+          {
+            "Order": 43,
+            "Text": "I knew it",
+            "SongPart": "Chorus"
           }
         ]
       }
