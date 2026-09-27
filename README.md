@@ -281,7 +281,7 @@ For example, the lyric word `kid` has the `SongOccurrences` values:
 
 This is interpreted as the word `kid` occurring three times on track 16 of the album 'Red', once on track 30 of the album 'Red', twice on track 10 of the album 'Folklore', and so on.
 
-> [!NOTE]
+> [!IMPORTANT]
 > This column does not appear in the [word details tsv](tsv/cots-word-details.tsv), in order meet the [file size limit for rendering tabular data on GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#rendering-csv-and-tsv-data). To view this column, see the [main CoTS file](Corpus-of-Taylor-Swift.xlsx).
 
 ![CoTS eras colours divider](img/eras-colours-divider.png)
@@ -312,7 +312,7 @@ These columns list the most common verb, adjective and noun that occur in a song
 
 [ `remember`, `clear`, `woods` ]
 
-> [!NOTE]
+> [!IMPORTANT]
 > In an effort to increase the interest of these prevalent word columns, and to not inundate them with very common words, the top 100 words of the OEC have been filtered out from the columns. As ever, the homographic nature of English means that some of the matched words might not be used in a song as their PoS categorisation in these columns, so words in these columns are to be taken with a pinch of salt. 
 
 ### Lines
