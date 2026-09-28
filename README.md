@@ -94,7 +94,7 @@ To prevent duplicate counts of lyric words, versions of songs that are pure remi
 
 ## Supplemental Files
 
-The following files are provided in addition to [the main CoTS file](Corpus-of-Taylor-Swift.xlsx):
+The following files are provided in addition to [the main CoTS spreadsheet file](Corpus-of-Taylor-Swift.xlsx):
 
 - [lyrics/album-song-lyrics.json](lyrics/album-song-lyrics.json) - This is the raw album, song and lyric dataset used to compile CoTS.
 - [lyrics/flat-song-lyrics.json](lyrics/flat-song-lyrics.json) - This is the same flat set of lyric lines that is provided in CoTS.
@@ -168,11 +168,11 @@ The top 100 OEC ranked words of the English language are labelled 1-100 in this 
 
 The 5000 most important words of the English language, as defined by the Oxford 5000 CEFR list, are provided in this column. They are categorised into the following bands in order of word simplicity when learning a language:
 
-- `A1`
-- `A2`
-- `B1`
-- `B2`
-- `C1`
+- 🔴`A1`
+- 🟠`A2`
+- 🟡`B1`
+- 🟢`B2`
+- 🔵`C1`
  
 The Oxford 5000 CEFR list does not include 'C2' categorised words, however non-categorised words in this column can be interpreted as less important than words within the list, or more difficult to learn or both.
 
@@ -282,7 +282,7 @@ For example, the lyric word `kid` has the `SongOccurrences` values:
 This is interpreted as the word `kid` occurring three times on track 16 of the album 'Red', once on track 30 of the album 'Red', twice on track 10 of the album 'Folklore', and so on.
 
 > [!IMPORTANT]
-> This column does not appear in the [word details tsv](tsv/cots-word-details.tsv), in order meet the [file size limit for rendering tabular data on GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#rendering-csv-and-tsv-data). To view this column, see the [main CoTS file](Corpus-of-Taylor-Swift.xlsx).
+> This column does not appear in the [word details tsv](tsv/cots-word-details.tsv), in order meet the [file size limit for rendering tabular data on GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#rendering-csv-and-tsv-data). To view this column, see the [main CoTS spreadsheet file](Corpus-of-Taylor-Swift.xlsx).
 
 ![CoTS eras colours divider](img/eras-colours-divider.png)
 
