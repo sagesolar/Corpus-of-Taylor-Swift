@@ -168,11 +168,11 @@ The top 100 OEC ranked words of the English language are labelled 1-100 in this 
 
 The 5000 most important words of the English language, as defined by the Oxford 5000 CEFR list, are provided in this column. They are categorised into the following bands in order of word simplicity when learning a language:
 
-🔴`A1`
-🟠`A2`
-🟡`B1`
-🟢`B2`
-🔵`C1`
+- 🔴`A1`
+- 🟠`A2`
+- 🟡`B1`
+- 🟢`B2`
+- 🔵`C1`
  
 The Oxford 5000 CEFR list does not include 'C2' categorised words, however non-categorised words in this column can be interpreted as less important than words within the list, or more difficult to learn or both.
 
