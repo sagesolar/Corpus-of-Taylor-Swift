@@ -34,7 +34,7 @@ To ensure as complete lyric word categorisation as possible, the following have 
 
 The following lyric words have been replaced with WFWSE equivalents:
 
-- `rollercoaster` is listed as `roller-coaster`
+- `rollercoaster` is listed as `roller-coaster` 🎢
 - `lighthearted` is listed as `light-hearted`
 - `nightlight` is listed as `night-light`
 - `fairytale` is listed as `fairy-tale` 📘
