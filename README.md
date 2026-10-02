@@ -4,9 +4,11 @@
 
 # Introduction
 
-This is a dataset consisting of all song lyric words found on all of Taylor Swift's studio albums, as well as a selection of other songs written by her. Each unique lyric word is assigned various categorisations and statistics by CoTS, that can be used to understand how and where each word is used in one or more lyrics, songs and/or albums. 
+This is a comprehensive dataset consisting of all song lyric words found across all of Taylor Swift's studio albums, plus specifically selected non-album tracks. Each unique lyric word is assigned various categorisations and statistics by CoTS, that can be used to understand how and where each word is used in one or more lyrics, songs and/or albums.
 
-CoTS is generated using 'Taylor's Version' album lyrics where available, and includes all bonus tracks or 'from the vault' songs. There is intent to keep this dataset updated as new material is released in future.
+CoTS is grounded in established linguistic standards, making it suitable for linguistic analysis, vocabulary learning, thematic exploration, and creative reference. The data is available in multiple formats including a detailed Excel spreadsheet, JSON files, and TSV exports, allowing you to browse interactively or analyse programmatically.
+
+CoTS is generated using "Taylor's Version" album lyrics where available, and includes applicable bonus tracks and 'from the vault' songs. The dataset is actively maintained and updated with each new Taylor Swift release, ensuring it reflects her complete evolving discography.
 
 Happy browsing and friendship bracelet making! 🐈
 
@@ -16,7 +18,7 @@ Happy browsing and friendship bracelet making! 🐈
 
 CoTS assigns word frequencies, parts of speech (PoS) and word variants to lyric words as defined by the [Word Frequency in Written and Spoken English (WFWSE)](https://ucrel.lancs.ac.uk/bncfreq/flists.html) list. 
 
-Lyric words have also been categorised using the [Oxford 5000 by CEFR level](https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000) word list, which ranks words based on their importance to a language using the [Common European Framework of Reference for Languages (CEFR)](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions).
+Lyric words have also been categorised using the [Oxford 5000 word list](https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000), which ranks words based on their importance to a language using the [Common European Framework of Reference for Languages (CEFR)](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions).
 
 CoTS also utilises the [Oxford English Corpus (OEC) top 100 most frequent words](https://en.wikipedia.org/wiki/Most_common_words_in_English) of the English language, as described in several sections below.
 
@@ -37,7 +39,7 @@ The following lyric words have been replaced with WFWSE equivalents:
 - `rollercoaster` is listed as `roller-coaster` 🎢
 - `lighthearted` is listed as `light-hearted`
 - `nightlight` is listed as `night-light`
-- `fairytale` is listed as `fairy-tale` 📘
+- `fairytale` is listed as `fairy-tale` 🏰
 - `namedropping` is listed as `name-dropping`
 - `takeout` is listed as `take-out`
 - `ole` is listed as `old` (when used as an alternative spelling, eg. 'ole city')
@@ -55,14 +57,14 @@ Moreover, lyric words that include partial self-repetitions and are already clas
 
 Words that are informal contractions have been categorised as contractions in CoTS. For example:
 
-- `betcha`
-- `dunno`
-- `gimme`
-- `hella`
-- `tryna`
-- `whatcha`
+- `betcha` - "bet you"
+- `dunno` - "don't know"
+- `gimme` - "give me"
+- `hella` - "hell of a"
+- `tryna` - "trying to"
+- `whatcha` - "what are"
 
-![CoTS eras colours divider](img/eras-colours-divider-alt.png)
+![CoTS eras colours divider](img/eras-colours-divider.png)
 
 # Housekeeping
 
@@ -89,10 +91,33 @@ For brevity, CoTS uses the following album codes when referring to albums:
 
 ## Song Selection
 
+### Alternative song versions
+
 To prevent duplicate counts of lyric words, versions of songs that are pure remixes or acoustic/piano etc performances of original songs are not included in CoTS. Furthermore, versions of songs that have substantial additional lyrics have been selected in place of their original versions. Currently the two such substituted songs are:
 
 - the '10 Minute Version' version of 'All Too Well' on the album 'Red'
 - the 'Feat. More Lana Del Rey' version of ❄'Snow On The Beach' on the album 'Midnights'
+
+### Non-studio album songs
+
+CoTS includes non-album songs that meet two criteria: they must be written by Taylor Swift or as part of a collaborative writing effort, and there must be a studio recording of Taylor Swift performing the song.
+
+For example, Taylor Swift co-wrote the 2016 song 'This Is What You Came For', but did not record a studio version of it, so it is not included in CoTS. In contrast, she co-wrote the 2019 song 'Beautiful Ghosts', which was performed by a Cats film actor. However, since Taylor Swift also recorded a studio version, it is included in CoTS.
+
+### Midnights album editions
+
+The Midnights album was released across five distinct editions, each featuring different combinations of tracks:
+
+- 🔵 **Standard edition** - Original album release _(13 tracks)_
+- 🟣 **Lavender edition** - Standard edition plus 'Hits Different' _(16 tracks)_
+- 🟢 **3AM🕒 edition** - Standard edition plus seven bonus tracks _(20 tracks)_
+- 🟡 **Til Dawn edition** - Combines the 'Standard' and '3AM' editions, with the songs 'Hits Different' and an altnernate 'Snow on the Beach' version _(23 tracks)_
+- 🟠 **Late Night edition** - 'Standard' edition with an alternate track selection _(21 tracks)_
+
+CoTS is based on the 'Til Dawn' edition, which provides the most comprehensive song set. However, this edition omits one notable track: "You're Losing Me", which appears exclusively on the Late Night edition. To ensure complete coverage, "You're Losing Me" has been added as track 23 in the CoTS dataset.
+
+> [!NOTE]
+> The Late Night edition could not be used as the primary source because it excludes two tracks present in the Til Dawn edition: "Paris" and "Glitch". Using Til Dawn with the addition of "You're Losing Me" provides the most complete representation of Taylor Swift's Midnights material.
 
 ## Supplemental Files
 
@@ -103,7 +128,8 @@ The following files are provided in addition to [the main CoTS spreadsheet file]
 - [tsv/cots-word-details.tsv](tsv/cots-word-details.tsv) - A flat version of the CoTS 'WordDetails' worksheet.
 - [tsv/cots-song-details.tsv](tsv/cots-song-details.tsv) - A flat version of the CoTS 'SongDetails' worksheet.
 - [tsv/cots-album-details.tsv](tsv/cots-album-details.tsv) - A flat version of the CoTS 'AlbumDetails' worksheet.
-- [tsv/cots-lyric-details.tsv](tsv/cots-lyric-details.tsv) - A flat version of the CoTS 'LyricDetails' worksheet.
+
+![CoTS eras colours divider](img/eras-colours-divider.png)
 
 # Corpus Parts
 
@@ -128,7 +154,7 @@ These are the standard grammatical categorisations that are assigned to English 
 
 Standard PoS categories appear abbreviated within CoTS as follows:
 
-- `Adje` - Adjective
+- `Adje` - Adjective 🔥
 - `Adve` - Adverb
 - `Arti` - Article
 - `Conj` - Conjunction
@@ -139,7 +165,7 @@ Standard PoS categories appear abbreviated within CoTS as follows:
 - `Numb` - Number
 - `Prep` - Preposition
 - `Pron` - Pronoun 
-- `Verb` - Verb
+- `Verb` - Verb ⚡
 
 Additionally, the following non-standard categories have been added for contractions/informal contractions (eg. `doesn't`, `should've`, `wanna`), proper nouns (eg. `London`, `Halloween`, `James`) and currently unclassified words:
 
@@ -152,7 +178,7 @@ Additionally, the following non-standard categories have been added for contract
 
 ### FqBand _(Frequency Band)_
 
-This is a word frequency band that each lyric word has been assigned. It has been derived from the WFWSE word frequency, and using the [Fibonacci numbers F11 to F24](https://www.math.net/list-of-fibonacci-numbers) as banding boundaries, values of `🚩1` to `🚩16` have been assigned. The higher the band value, the less frequently a word occurs in English, according to the WFWSE.
+This is a word frequency band that each lyric word has been assigned. It has been derived from the [WFWSE word frequency](https://ucrel.lancs.ac.uk/bncfreq/flists.html), and using the [Fibonacci numbers F11 to F24](https://www.math.net/list-of-fibonacci-numbers) as banding boundaries, values of `🚩1` to `🚩16` have been assigned. The higher the band value, the less frequently a word occurs in English, according to the WFWSE.
 
 As described in the [PoSes](https://github.com/sagesolar/Corpus-of-Taylor-Swift#poses-part-of-speech) column, due to the homographic nature of many English language words, many lyric words are assigned multiple word frequency values. In order to present a single frequency band for each lyric word, the highest frequency value PoS of each lyric word was used when assigning a word's frequency band.
 
@@ -161,22 +187,22 @@ As described in the [PoSes](https://github.com/sagesolar/Corpus-of-Taylor-Swift#
 
 ### OECRank _(Oxford English Corpus Rank)_
 
-The top 100 OEC ranked words of the English language are labelled 1-100 in this column. CoTS utilises these ranked words in several columns, such as [NextWord](https://github.com/sagesolar/Corpus-of-Taylor-Swift#nextword1-2-3), [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repetitions) and [PrevalentWords](https://github.com/sagesolar/Corpus-of-Taylor-Swift#prevalentverb--adjective--noun). Therefore, these words ranks are provided in this column for reference. Due to WFWSE word variants, some OEC rankings appear more than once in the column (see the [Word](https://github.com/sagesolar/Corpus-of-Taylor-Swift#word) column regarding word variant/tense groupings).
+The [top 100 OEC ranked words](https://en.wikipedia.org/wiki/Most_common_words_in_English) of the English language are labelled 1-100 in this column. CoTS utilises these ranked words in several columns, such as [NextWord](https://github.com/sagesolar/Corpus-of-Taylor-Swift#nextword1-2-3), [Reps](https://github.com/sagesolar/Corpus-of-Taylor-Swift#reps-repetitions) and [PrevalentWords](https://github.com/sagesolar/Corpus-of-Taylor-Swift#prevalentverb--adjective--noun). Therefore, these words ranks are provided in this column for reference. Due to WFWSE word variants, some OEC rankings appear more than once in the column _(see the [Word](https://github.com/sagesolar/Corpus-of-Taylor-Swift#word) column regarding word variant/tense groupings)_.
 
 > [!NOTE]
 > Unlike the WFWSE, the OEC categorises the words `a` and `an` separately, so for the purposes of the OEC rank they are treated as separate words, with ranks of `6` and `32` respectively. This is the only instance that such denormalization occurs.
 
 ### CEFRLevel _(Common European Framework of Reference for Languages Level)_
 
-The 5000 most important words of the English language, as defined by the Oxford 5000 CEFR list, are provided in this column. They are categorised into the following bands in order of word simplicity when learning a language:
+The 5000 most important words of the English language, as defined by the [Oxford 5000 word list](https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000), are provided in this column. They are categorised into the following bands in order of word simplicity when learning a language:
 
-- 🔴`A1`
-- 🟠`A2`
-- 🟡`B1`
-- 🟢`B2`
-- 🔵`C1`
+- `A1` - Elementary language proficiency
+- `A2` - Pre-intermediate language proficiency
+- `B1` - Lower-intermediate language proficiency
+- `B2` - Upper-intermediate language proficiency
+- `C1` - Advanced language proficiency
  
-The Oxford 5000 CEFR list does not include 'C2' categorised words, however non-categorised words in this column can be interpreted as less important than words within the list, or more difficult to learn or both.
+The Oxford 5000 CEFR list does not include 'C2' (complete language proficiency) categorised words, however non-categorised words in this column can be interpreted as less important than words within the list, or more difficult to learn or both.
 
 ### NextWord[1-2-3]
 
@@ -203,7 +229,7 @@ Consider the following lyrics:
 
 In the first example, the words `In`, `storm` and `in` have no 'next' word, as their respective following words `a`, `in` and `my` are in the OEC top 50 words. Conversely the words `a`, `my`, `best` and `dress`  have respective 'next' words of `storm`, `best`, `dress` and `fearless`. The word `fearless` has no 'next' word as it occurs at the end of the lyric line.
 
-These rules continue in the second example and on, including the word `say` which has a 'next' word of `They're`, regardless of it's preceding double quote character.
+These rules continue in the second example and on, including the word `say` which has a 'next' word of `They're`, regardless of its preceding double quote character.
 
 In the third example both instances of the word `face` have no 'next' words, as their respective following words `Look` and `Gorgeous` are preceded by parenthesis or punctuation marks. Notice that the commas in the first two examples do not exclude following words.
 
@@ -216,7 +242,7 @@ This is the number of characters (including any hyphens) that comprise a lyric w
 
 ### Reps _(Repetitions)_
 
-This is the number of times that a lyric word is repeated in lyric lines across all songs and albums. Specifically, these are lyric words that are either uniformly repeated interjections or words that are consecutively repeated in a given lyric line. However, non-hyphaneted full reduplications (e.g. `murmur` or `couscous`) are not counted as repetitions. 
+This is the number of times that a lyric word is repeated in lyric lines across all songs and albums. Specifically, these are lyric words that are either uniformly repeated interjections or words that are consecutively repeated in a given lyric line. However, non-hyphenated full reduplications (e.g. `murmur` or `couscous`) are not counted as repetitions. 
 
 <details>
 <summary>Lyric examples</summary>
@@ -284,7 +310,7 @@ For example, the lyric word `kid` has the `SongOccurrences` values:
 This is interpreted as the word `kid` occurring three times on track 16 of the album 'Red', once on track 30 of the album 'Red', twice on track 10 of the album 'Folklore', and so on.
 
 > [!IMPORTANT]
-> This column does not appear in the [word details tsv](tsv/cots-word-details.tsv), in order meet the [file size limit for rendering tabular data on GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#rendering-csv-and-tsv-data). To view this column, see the [main CoTS spreadsheet file](Corpus-of-Taylor-Swift.xlsx).
+> This column does not appear in the [word details tsv](tsv/cots-word-details.tsv), in order to meet the [file size limit for rendering tabular data on GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#rendering-csv-and-tsv-data). To view this column, see the [main CoTS spreadsheet file](Corpus-of-Taylor-Swift.xlsx).
 
 ![CoTS eras colours divider](img/eras-colours-divider-alt.png)
 
@@ -328,6 +354,10 @@ This is the total count of lyric lines that occur in various song structure part
 ### Words
 
 This is the total count of words in a song.
+
+### Notes
+
+This provides any notes regarding a song, such as its origin or positioning in CoTS.
 
 ### GeniusUrl
 
@@ -375,7 +405,7 @@ Each lyric is labelled with `Album Code` : `Track Number` : `Lyric Line Number` 
 
 - `TSW:03:013:C` - _He's the reason for the teardrops on my guitar_ 🎸
 - `FER:01:017:C` - _In a storm, in my best dress, fearless_
-- `SPN:09:019:C` - _I was enchanted to meet you_
+- `SPN:09:019:C` - _I was enchanted to meet you_ ✨
 - `RED:30:090:V` - _I remember it all too well_
 - `NEN:14:015:C` - _We found Wonderland, you and I got lost in it_
 - `REP:01:036:R` - _Baby, let the games begin_ 🎲
