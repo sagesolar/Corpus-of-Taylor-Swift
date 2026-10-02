@@ -114,10 +114,10 @@ The Midnights album was released across five distinct editions, each featuring d
 - 🟡 **Til Dawn edition** - Combines the 'Standard' and '3AM' editions, with the songs 'Hits Different' and an altnernate 'Snow on the Beach' version _(23 tracks)_
 - 🟠 **Late Night edition** - 'Standard' edition with an alternate track selection _(21 tracks)_
 
-CoTS is based on the 'Til Dawn' edition, which provides the most comprehensive song set. However, this edition omits one notable track: "You're Losing Me", which appears exclusively on the Late Night edition. To ensure complete coverage, "You're Losing Me" has been added as track 23 in the CoTS dataset.
+CoTS is based on the 'Til Dawn' edition, which provides the most comprehensive song set. However, this edition omits one notable song: "You're Losing Me", which appears exclusively on the 'Late Night' edition. To ensure complete coverage, "You're Losing Me" has been added as track 23 in the CoTS dataset.
 
 > [!NOTE]
-> The Late Night edition could not be used as the primary source because it excludes two tracks present in the Til Dawn edition: "Paris" and "Glitch". Using Til Dawn with the addition of "You're Losing Me" provides the most complete representation of Taylor Swift's Midnights material.
+> The 'Late Night' edition could not be used as the primary source because it excludes two songs present in the 'Til Dawn' edition: 'Paris' and 'Glitch'. Using the 'Til Dawn' edition with the addition of "You're Losing Me" provides the most complete representation of Taylor Swift's Midnights material.
 
 ## Supplemental Files
 
