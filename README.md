@@ -93,7 +93,7 @@ For brevity, CoTS uses the following album codes when referring to albums:
 
 ### Alternative song versions
 
-To prevent duplicate counts of lyric words, versions of songs that are pure remixes or acoustic/piano etc performances of original songs are not included in CoTS. Furthermore, versions of songs that have substantial additional lyrics have been selected in place of their original versions. Currently the two such substituted songs are:
+To prevent duplicate counts of lyric words, versions of songs that are remixes or acoustic/piano etc performances of original songs are not included in CoTS. Furthermore, versions of songs that have substantial additional lyrics have been selected in place of their original versions. Currently the two such substituted songs are:
 
 - the '10 Minute Version' version of 'All Too Well' on the album 'Red'
 - the 'Feat. More Lana Del Rey' version of ❄'Snow On The Beach' on the album 'Midnights'
@@ -106,13 +106,15 @@ For example, Taylor Swift co-wrote the 2016 song 'This Is What You Came For', bu
 
 ### Midnights album editions
 
-The Midnights album was released across five distinct editions, each featuring different combinations of tracks:
+The Midnights album was released across five distinct editions, each featuring different combinations of tracks _(note that the below album descriptions do not consider [ineligible alternative song versions](https://github.com/sagesolar/Corpus-of-Taylor-Swift#alternative-song-versions))_:
 
-- 🔵 **Standard edition** - Original album release _(13 tracks)_
-- 🟣 **Lavender edition** - Standard edition plus 'Hits Different' _(16 tracks)_
-- 🟢 **3AM🕒 edition** - Standard edition plus seven bonus tracks _(20 tracks)_
-- 🟡 **Til Dawn edition** - Combines the 'Standard' and '3AM' editions, with the songs 'Hits Different' and an altnernate 'Snow on the Beach' version _(23 tracks)_
-- 🟠 **Late Night edition** - 'Standard' edition with an alternate track selection _(21 tracks)_
+| Album Edition | Description | Songs | 
+| :--- | :--- | :---: |
+| `🔵 Standard` | Original version of the album | 13 |
+| `🟣 Lavender` | Standard edition plus the 'Hits Different' song | 16 |
+| `🟢 3AM 🕒` | Standard edition plus seven bonus songs | 20 |
+| `🟡 Til Dawn` | Combines Standard & 3AM editions, plus the songs 'Hits Different' & 'Snow on the Beach' alternate | 23 |
+| `🟠 Late Night` | Standard edition plus an alternate selection of eight bonus songs | 21 |
 
 CoTS is based on the 'Til Dawn' edition, which provides the most comprehensive song set. However, this edition omits one notable song: "You're Losing Me", which appears exclusively on the 'Late Night' edition. To ensure complete coverage, "You're Losing Me" has been added as track 23 in the CoTS dataset.
 
