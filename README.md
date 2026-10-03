@@ -111,7 +111,7 @@ The Midnights album was released across five distinct editions, each featuring d
 | Album Edition | Description | Songs | 
 | :--- | :--- | :---: |
 | `🔵 Standard` | Original version of the album | 13 |
-| `🟣 Lavender` | Standard edition plus the 'Hits Different' | 16 |
+| `🟣 Lavender` | Standard edition plus 'Hits Different' | 16 |
 | `🟢 3AM 🕒` | Standard edition plus seven bonus songs | 20 |
 | `🟡 Til Dawn` | Standard & 3AM editions, plus 'Hits Different' & 'Snow on the Beach' alternate | 23 |
 | `🟠 Late Night` | Standard edition plus an alternate selection of eight bonus songs | 21 |
